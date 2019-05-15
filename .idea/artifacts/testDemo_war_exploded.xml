@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="testDemo:war exploded">
+    <output-path>$PROJECT_DIR$/target/Aid</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="testDemo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.activemq:activemq-all:5.13.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/Aid/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="testDemo/web/Web" />
+    </root>
+  </artifact>
+</component>
