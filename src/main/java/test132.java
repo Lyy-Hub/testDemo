@@ -9,7 +9,7 @@ import java.util.List;
  */
 public class test132 {
     public static void main(String[] args) {
-        String str = "abs,qwe,eqw,sdg,asrt,uuyk,agdew,cvc,wert,asfg,wqafg,fggha,dfdgdfg,sdfaf";
+        /*String str = "abs,qwe,eqw,sdg,asrt,uuyk,agdew,cvc,wert,asfg,wqafg,fggha,dfdgdfg,sdfaf";
         String[] qqq = str.split(",");
         int num = 0;
         for(int i = 0;i < qqq.length;i++){
@@ -20,7 +20,9 @@ public class test132 {
             if(num > 4){
                 break;
             }
-        }
-
+        }*/
+        String aaa = "123.123.123.123";
+        String bbb = "123.123.123.123";
+        System.out.println(aaa.equals(bbb));
     }
 }

@@ -6,9 +6,9 @@ import java.util.Map;
  */
 public class zuobiaochange {
     public static void main(String[] args) {
-        Map aa = Convert_GCJ02_To_BD09(114.111,48.123);
+        Map aa = Convert_GCJ02_To_BD09(120.111111,30.222222);
         System.out.println(aa);
-        Map aaa = Convert_BD09_To_GCJ02_RETURN_LNG(114.111,48.123);
+        Map aaa = Convert_BD09_To_GCJ02_RETURN_LNG(120.111111,30.222222);
         System.out.println(aaa);
     }
 
