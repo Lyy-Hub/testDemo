@@ -153,6 +153,7 @@ public class HttpUtil {
 
     public static void main(String[] args){
         try {
+            // http://127.0.0.1:8765/ajax
             String getResult = get("http://www.baidu.com", null);
             System.out.println(getResult);
             System.out.println("---------------------------------");
