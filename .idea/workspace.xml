@@ -9,85 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd14cda9-bbe5-48e0-bae5-66ad30f0dd43" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/b.properties" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/testDemo_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/testDemo_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/upload.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ActiveMQ2/Receiver$1.class" afterPath="$PROJECT_DIR$/target/classes/ActiveMQ2/Receiver$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ActiveMQ2/Receiver$2.class" afterPath="$PROJECT_DIR$/target/classes/ActiveMQ2/Receiver$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ActiveMQ2/Receiver.class" afterPath="$PROJECT_DIR$/target/classes/ActiveMQ2/Receiver.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ActiveMQ2/Sender.class" afterPath="$PROJECT_DIR$/target/classes/ActiveMQ2/Sender.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ActiveMQ2/TopicModel/Publisher.class" afterPath="$PROJECT_DIR$/target/classes/ActiveMQ2/TopicModel/Publisher.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ActiveMQ2/TopicModel/Subscriber$1.class" afterPath="$PROJECT_DIR$/target/classes/ActiveMQ2/TopicModel/Subscriber$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ActiveMQ2/TopicModel/Subscriber$Listener.class" afterPath="$PROJECT_DIR$/target/classes/ActiveMQ2/TopicModel/Subscriber$Listener.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ActiveMQ2/TopicModel/Subscriber.class" afterPath="$PROJECT_DIR$/target/classes/ActiveMQ2/TopicModel/Subscriber.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ArrayQueue.class" afterPath="$PROJECT_DIR$/target/classes/ArrayQueue.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ArrayStack.class" afterPath="$PROJECT_DIR$/target/classes/ArrayStack.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Cat.class" afterPath="$PROJECT_DIR$/target/classes/Cat.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data$Outputter1.class" afterPath="$PROJECT_DIR$/target/classes/Data$Outputter1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data.class" afterPath="$PROJECT_DIR$/target/classes/Data.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HelloServlet.class" afterPath="$PROJECT_DIR$/target/classes/HelloServlet.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MD5/MD5Util.class" afterPath="$PROJECT_DIR$/target/classes/MD5/MD5Util.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Mqtt/ClientMQTT.class" afterPath="$PROJECT_DIR$/target/classes/Mqtt/ClientMQTT.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Mqtt/PushCallback.class" afterPath="$PROJECT_DIR$/target/classes/Mqtt/PushCallback.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Mqtt/ServerMQTT.class" afterPath="$PROJECT_DIR$/target/classes/Mqtt/ServerMQTT.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pdf2Word/PDFBox.class" afterPath="$PROJECT_DIR$/target/classes/Pdf2Word/PDFBox.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pdf2Word/pdf2word.class" afterPath="$PROJECT_DIR$/target/classes/Pdf2Word/pdf2word.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Postgres/JDBCOperation.class" afterPath="$PROJECT_DIR$/target/classes/Postgres/JDBCOperation.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Postgres/JDBCTest.class" afterPath="$PROJECT_DIR$/target/classes/Postgres/JDBCTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Postgres/PostgreSQLJDBC.class" afterPath="$PROJECT_DIR$/target/classes/Postgres/PostgreSQLJDBC.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Postgres/Student.class" afterPath="$PROJECT_DIR$/target/classes/Postgres/Student.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SHA256Util.class" afterPath="$PROJECT_DIR$/target/classes/SHA256Util.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SystemArrayCopy.class" afterPath="$PROJECT_DIR$/target/classes/SystemArrayCopy.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Word2Pdf/FileConverter.class" afterPath="$PROJECT_DIR$/target/classes/Word2Pdf/FileConverter.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/XDocService$XDoc.class" afterPath="$PROJECT_DIR$/target/classes/XDocService$XDoc.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/XDocService$XParam.class" afterPath="$PROJECT_DIR$/target/classes/XDocService$XParam.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/XDocService.class" afterPath="$PROJECT_DIR$/target/classes/XDocService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/activeMQ/JMSConsumer.class" afterPath="$PROJECT_DIR$/target/classes/activeMQ/JMSConsumer.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/activeMQ/JMSProducer.class" afterPath="$PROJECT_DIR$/target/classes/activeMQ/JMSProducer.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dom4jxml/test.class" afterPath="$PROJECT_DIR$/target/classes/dom4jxml/test.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/joke$1.class" afterPath="$PROJECT_DIR$/target/classes/joke$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/joke$2.class" afterPath="$PROJECT_DIR$/target/classes/joke$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/joke.class" afterPath="$PROJECT_DIR$/target/classes/joke.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/ArrayOfString.class" afterPath="$PROJECT_DIR$/target/classes/mypackage/ArrayOfString.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/GetCharFonts.class" afterPath="$PROJECT_DIR$/target/classes/mypackage/GetCharFonts.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/GetCharFontsResponse.class" afterPath="$PROJECT_DIR$/target/classes/mypackage/GetCharFontsResponse.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/GetChineseFonts.class" afterPath="$PROJECT_DIR$/target/classes/mypackage/GetChineseFonts.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/GetChineseFontsResponse.class" afterPath="$PROJECT_DIR$/target/classes/mypackage/GetChineseFontsResponse.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/ObjectFactory.class" afterPath="$PROJECT_DIR$/target/classes/mypackage/ObjectFactory.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/QqCheckOnline.class" afterPath="$PROJECT_DIR$/target/classes/mypackage/QqCheckOnline.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/QqCheckOnlineResponse.class" afterPath="$PROJECT_DIR$/target/classes/mypackage/QqCheckOnlineResponse.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/QqOnlineWebService.class" afterPath="$PROJECT_DIR$/target/classes/mypackage/QqOnlineWebService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/QqOnlineWebServiceHttpGet.class" afterPath="$PROJECT_DIR$/target/classes/mypackage/QqOnlineWebServiceHttpGet.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/QqOnlineWebServiceHttpPost.class" afterPath="$PROJECT_DIR$/target/classes/mypackage/QqOnlineWebServiceHttpPost.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/QqOnlineWebServiceSoap.class" afterPath="$PROJECT_DIR$/target/classes/mypackage/QqOnlineWebServiceSoap.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/RandomFontsWebService.class" afterPath="$PROJECT_DIR$/target/classes/mypackage/RandomFontsWebService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/RandomFontsWebServiceHttpGet.class" afterPath="$PROJECT_DIR$/target/classes/mypackage/RandomFontsWebServiceHttpGet.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/RandomFontsWebServiceHttpPost.class" afterPath="$PROJECT_DIR$/target/classes/mypackage/RandomFontsWebServiceHttpPost.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/RandomFontsWebServiceSoap.class" afterPath="$PROJECT_DIR$/target/classes/mypackage/RandomFontsWebServiceSoap.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/package-info.class" afterPath="$PROJECT_DIR$/target/classes/mypackage/package-info.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/qianghongbao/TestMain.class" afterPath="$PROJECT_DIR$/target/classes/qianghongbao/TestMain.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test$1.class" afterPath="$PROJECT_DIR$/target/classes/test$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test$2.class" afterPath="$PROJECT_DIR$/target/classes/test$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test.class" afterPath="$PROJECT_DIR$/target/classes/test.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test132.class" afterPath="$PROJECT_DIR$/target/classes/test132.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testEquals.class" afterPath="$PROJECT_DIR$/target/classes/testEquals.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testq$1.class" afterPath="$PROJECT_DIR$/target/classes/testq$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testq.class" afterPath="$PROJECT_DIR$/target/classes/testq.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zuobiaochange.class" afterPath="$PROJECT_DIR$/target/classes/zuobiaochange.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/三种集合比较/test.class" afterPath="$PROJECT_DIR$/target/classes/三种集合比较/test.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/反射/Book.class" afterPath="$PROJECT_DIR$/target/classes/反射/Book.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/反射/ReflectClass.class" afterPath="$PROJECT_DIR$/target/classes/反射/ReflectClass.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/反射/test.class" afterPath="$PROJECT_DIR$/target/classes/反射/test.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/图片处理/ImageSplit.class" afterPath="$PROJECT_DIR$/target/classes/图片处理/ImageSplit.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/图片处理/PictureCut.class" afterPath="$PROJECT_DIR$/target/classes/图片处理/PictureCut.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/图片处理/WaterMarkUtils.class" afterPath="$PROJECT_DIR$/target/classes/图片处理/WaterMarkUtils.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/计算利滚利.class" afterPath="$PROJECT_DIR$/target/classes/计算利滚利.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/车牌号.class" afterPath="$PROJECT_DIR$/target/classes/车牌号.class" />
-      <change beforePath="$PROJECT_DIR$/testDemo.iml" afterPath="$PROJECT_DIR$/testDemo.iml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/流水号/upload.properties" afterPath="$PROJECT_DIR$/src/main/java/流水号/upload.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -103,8 +26,8 @@
       <file leaf-file-name="Serialnumber.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/流水号/Serialnumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="40" column="35" lean-forward="true" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+            <state relative-caret-position="378">
+              <caret line="74" column="30" lean-forward="false" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -114,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/流水号/upload.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="78">
-              <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -188,8 +111,8 @@
         <option value="$PROJECT_DIR$/src/main/java/test132.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/upload.properties" />
         <option value="$PROJECT_DIR$/src/main/java/流水号/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/流水号/Serialnumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/流水号/upload.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/流水号/Serialnumber.java" />
       </list>
     </option>
   </component>
@@ -272,31 +195,6 @@
             <path>
               <item name="testDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="testDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -561,7 +459,7 @@
       <workItem from="1559007125158" duration="11749000" />
       <workItem from="1559031756905" duration="5169000" />
       <workItem from="1559037027262" duration="894000" />
-      <workItem from="1559089917138" duration="7089000" />
+      <workItem from="1559089917138" duration="7898000" />
     </task>
     <task id="LOCAL-00001" summary="readme">
       <created>1557888567426</created>
@@ -619,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559096979199</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="流水号">
+      <created>1559097032572</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559097032572</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -655,7 +560,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47487000" />
+    <option name="totallyTimeSpent" value="48296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -676,7 +581,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22850412" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22850412" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29564193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -988,7 +893,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/流水号/upload.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
-          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1003,8 +908,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/流水号/Serialnumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="40" column="35" lean-forward="true" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+        <state relative-caret-position="378">
+          <caret line="74" column="30" lean-forward="false" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
           <folding />
         </state>
       </provider>
