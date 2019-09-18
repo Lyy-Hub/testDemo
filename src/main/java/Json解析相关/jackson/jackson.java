@@ -1,4 +1,4 @@
-package jackson;
+package Json解析相关.jackson;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
@@ -17,7 +17,7 @@ public class jackson {
         String qq = objectMapper.writeValueAsString(user);
         System.out.println(qq);
         // json字符串转对象
-        User qqq = objectMapper.readValue(qq,User.class);
+        User qqq = objectMapper.readValue(qq, User.class);
         System.out.println(qqq);
         System.out.println("----------------------------------");
         // 对象转xml
@@ -25,7 +25,7 @@ public class jackson {
         String xmlString = xmlMapper.writeValueAsString(user);
         System.out.println(xmlString);
         // xml转对象
-        User qqqq = xmlMapper.readValue(xmlString,User.class);
+        User qqqq = xmlMapper.readValue(xmlString, User.class);
         System.out.println(qqqq);
     }
 }

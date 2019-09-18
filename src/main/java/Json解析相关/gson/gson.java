@@ -1,7 +1,7 @@
-package gson;
+package Json解析相关.gson;
 
+import Json解析相关.jackson.User;
 import com.google.gson.Gson;
-import jackson.User;
 
 /**
  * Created by liYueYang on 2019/9/18.

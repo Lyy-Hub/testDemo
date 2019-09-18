@@ -8,15 +8,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd14cda9-bbe5-48e0-bae5-66ad30f0dd43" name="Default" comment="Format Code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/gson/gson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/流水号/TestOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/testDemo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/testDemo_war_exploded.xml" afterDir="false" />
+    <list default="true" id="fd14cda9-bbe5-48e0-bae5-66ad30f0dd43" name="Default" comment="引入gson,优化jackson">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jackson/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jackson/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jackson/jackson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jackson/jackson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gson/gson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Json解析相关/gson/gson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jackson/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Json解析相关/jackson/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jackson/jackson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Json解析相关/jackson/jackson.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,29 +62,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Json解析相关" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java" />
-      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\Lucene" />
-      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\流水号" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\流水号\config" />
       <recent name="D:\GitHub-WorkSpace\testDemo\src\main\resources" />
-      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\Solr" />
+      <recent name="D:\GitHub-WorkSpace\testDemo\lib" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="流水号" />
       <recent name="jackson" />
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\流水号\config" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\Json解析相关" />
+      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java" />
+      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\Lucene" />
+      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\流水号" />
       <recent name="D:\GitHub-WorkSpace\testDemo\src\main\resources" />
-      <recent name="D:\GitHub-WorkSpace\testDemo\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -103,17 +99,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.jackson">
+  <component name="RunManager" selected="Application.jackson (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CnToSpell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CnToSpell" />
-      <module name="testDemo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,6 +154,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="jackson (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Json解析相关.jackson.jackson" />
+      <module name="testDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Json解析相关.jackson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="jackson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jackson.jackson" />
       <module name="testDemo" />
@@ -207,18 +209,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Serialnumber" />
-      <item itemvalue="Application.CnToSpell" />
       <item itemvalue="Application.TestOrder" />
       <item itemvalue="Application.jackson" />
       <item itemvalue="Application.gson" />
+      <item itemvalue="Application.jackson (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.jackson (1)" />
         <item itemvalue="Application.jackson" />
         <item itemvalue="Application.gson" />
         <item itemvalue="Application.TestOrder" />
         <item itemvalue="Application.Serialnumber" />
-        <item itemvalue="Application.CnToSpell" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +274,7 @@
       <workItem from="1568161937575" duration="674000" />
       <workItem from="1568614715849" duration="629000" />
       <workItem from="1568685885232" duration="1039000" />
-      <workItem from="1568767225503" duration="2246000" />
+      <workItem from="1568767225503" duration="3347000" />
     </task>
     <task id="LOCAL-00001" summary="readme">
       <created>1557888567426</created>
@@ -351,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565920204621</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="引入gson,优化jackson">
+      <created>1568769658251</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1568769658251</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -411,7 +420,8 @@
     <MESSAGE value="添加solr测试类" />
     <MESSAGE value="流水号" />
     <MESSAGE value="Format Code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Format Code" />
+    <MESSAGE value="引入gson,优化jackson" />
+    <option name="LAST_COMMIT_MESSAGE" value="引入gson,优化jackson" />
   </component>
   <component name="masterDetails">
     <states>
