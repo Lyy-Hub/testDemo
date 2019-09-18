@@ -8,23 +8,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd14cda9-bbe5-48e0-bae5-66ad30f0dd43" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CnToSpell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lucene/lucene/myanalyzer/MyWhitespaceAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lucene/lucene/myattribute/MyCharAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lucene/lucene/myattribute/MyCharAttributeImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lucene/lucene/mytokenfilter/MyLowerCaseTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lucene/lucene/mytokenizer/MyWhitespaceTokenizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/testDemo_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/testDemo_war.xml" afterDir="false" />
+    <list default="true" id="fd14cda9-bbe5-48e0-bae5-66ad30f0dd43" name="Default" comment="Format Code">
+      <change afterPath="$PROJECT_DIR$/src/main/java/gson/gson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/流水号/TestOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/testDemo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/testDemo_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Solr/SolrTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solr/SolrTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/流水号/Serialnumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/流水号/Serialnumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/流水号/upload.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/流水号/upload.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testq$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jackson/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jackson/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jackson/jackson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jackson/jackson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testDemo.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,25 +31,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>DocumentConverter</find>
-      <find>POST</find>
-      <find>UU</find>
-      <find>server</find>
-      <find>springframework</find>
-      <find>generaterNextNumber</find>
-      <find>0006</find>
-      <find>MyCharAttribute</find>
-      <find>MyLowerCaseTokenFilter</find>
-      <find>coodex</find>
-      <find>Solr</find>
-      <find>当前</find>
-      <find>user.dir</find>
-      <find>getCnASCII</find>
-      <find>yang</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,21 +73,22 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\流水号\config" />
-      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\resources" />
-      <recent name="D:\GitHub-WorkSpace\testDemo\lib" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="jackson" />
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java" />
       <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\Lucene" />
       <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\流水号" />
       <recent name="D:\GitHub-WorkSpace\testDemo\src\main\resources" />
       <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\Solr" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="流水号" />
+      <recent name="jackson" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\流水号\config" />
+      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\resources" />
+      <recent name="D:\GitHub-WorkSpace\testDemo\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -130,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Serialnumber">
+  <component name="RunManager" selected="Application.jackson">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -141,34 +114,6 @@
       <option name="MAIN_CLASS_NAME" value="CnToSpell" />
       <module name="testDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LuceneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lucene.LuceneTest" />
-      <module name="testDemo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lucene.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyWhitespaceAnalyzer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lucene.lucene.myanalyzer.MyWhitespaceAnalyzer" />
-      <module name="testDemo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lucene.lucene.myanalyzer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -187,16 +132,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="流水号.TestOrder" />
+      <module name="testDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="流水号.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testq" />
+    <configuration name="gson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gson.gson" />
       <module name="testDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jackson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jackson.jackson" />
+      <module name="testDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jackson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -228,18 +207,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Serialnumber" />
-      <item itemvalue="Application.LuceneTest" />
-      <item itemvalue="Application.MyWhitespaceAnalyzer" />
-      <item itemvalue="Application.testq" />
       <item itemvalue="Application.CnToSpell" />
+      <item itemvalue="Application.TestOrder" />
+      <item itemvalue="Application.jackson" />
+      <item itemvalue="Application.gson" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.jackson" />
+        <item itemvalue="Application.gson" />
+        <item itemvalue="Application.TestOrder" />
         <item itemvalue="Application.Serialnumber" />
         <item itemvalue="Application.CnToSpell" />
-        <item itemvalue="Application.testq" />
-        <item itemvalue="Application.MyWhitespaceAnalyzer" />
-        <item itemvalue="Application.LuceneTest" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +264,15 @@
       <workItem from="1561340970968" duration="743000" />
       <workItem from="1561344300975" duration="3011000" />
       <workItem from="1561960987543" duration="531000" />
-      <workItem from="1565920043493" duration="108000" />
+      <workItem from="1565920043493" duration="1072000" />
+      <workItem from="1565924280702" duration="1565000" />
+      <workItem from="1565942549937" duration="983000" />
+      <workItem from="1567127777516" duration="12000" />
+      <workItem from="1568161633357" duration="140000" />
+      <workItem from="1568161937575" duration="674000" />
+      <workItem from="1568614715849" duration="629000" />
+      <workItem from="1568685885232" duration="1039000" />
+      <workItem from="1568767225503" duration="2246000" />
     </task>
     <task id="LOCAL-00001" summary="readme">
       <created>1557888567426</created>
@@ -357,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559098380992</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Format Code">
+      <created>1565920204621</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1565920204621</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -400,7 +394,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -414,17 +410,8 @@
     <MESSAGE value="模拟 http get/post 请求" />
     <MESSAGE value="添加solr测试类" />
     <MESSAGE value="流水号" />
-    <option name="LAST_COMMIT_MESSAGE" value="流水号" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/activeMQ/JMSConsumer.java</url>
-          <line>33</line>
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Format Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Format Code" />
   </component>
   <component name="masterDetails">
     <states>

@@ -71,4 +71,30 @@ public class User {
     public void setCode(String code) {
         this.code = code;
     }
+
+    public User(String id, String userName, String password, Integer age, String email, Integer state, String code) {
+        this.id = id;
+        this.userName = userName;
+        this.password = password;
+        this.age = age;
+        this.email = email;
+        this.state = state;
+        this.code = code;
+    }
+
+    public User() {
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id='" + id + '\'' +
+                ", userName='" + userName + '\'' +
+                ", password='" + password + '\'' +
+                ", age=" + age +
+                ", email='" + email + '\'' +
+                ", state=" + state +
+                ", code='" + code + '\'' +
+                '}';
+    }
 }
