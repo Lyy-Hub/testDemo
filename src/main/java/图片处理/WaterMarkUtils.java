@@ -50,7 +50,6 @@ public class WaterMarkUtils {
             System.out.println("添加水印完成");
             outImgStream.flush();
             outImgStream.close();
-
         } catch (Exception e) {
             // TODO: handle exception
         }

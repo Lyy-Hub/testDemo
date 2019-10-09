@@ -28,7 +28,7 @@ public class Serialnumber {
      *
      * @return
      */
-    public static String Getnum() throws IOException {
+    public static String getnum() throws IOException {
         // 读取配置文件
         String rootPath = System.getProperty("user.dir").replace("\\", "/");
         FileInputStream in = new FileInputStream(rootPath + "\\src\\main\\java\\流水号\\upload.properties");
@@ -76,7 +76,7 @@ public class Serialnumber {
 
     //主方法测试
     public static void main(String[] args) throws IOException {
-        String m = Getnum();
+        String m = getnum();
         System.out.println(m);
     }
 

@@ -18,7 +18,7 @@ import java.awt.Font;
  * @author Lightcolour
  *
  */
-public class joke {
+public class Joke {
 
 	private JFrame frmLightcolour;
 	private JTextField mthing;
@@ -41,7 +41,7 @@ public class joke {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					joke window = new joke();
+					Joke window = new Joke();
 					window.frmLightcolour.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -53,7 +53,7 @@ public class joke {
 	/**
 	 * Create the application.
 	 */
-	public joke() {
+	public Joke() {
 		initialize();
 	}
 

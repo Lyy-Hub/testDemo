@@ -4,7 +4,7 @@ import java.util.Map;
 /**
  * Created by liyueyang on 2018/11/19.
  */
-public class zuobiaochange {
+public class Zuobiaochange {
     public static void main(String[] args) {
         Map aa = Convert_GCJ02_To_BD09(120.111111,30.222222);
         System.out.println(aa);

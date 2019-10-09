@@ -1,5 +1,5 @@
 
-public class testq {
+public class Testq {
     public static void main(String[] args) {
         String ip1 = "22.10.168.192";
         String ip2 = "";

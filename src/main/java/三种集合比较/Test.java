@@ -2,7 +2,7 @@ package 三种集合比较;
 
 import java.util.*;
 
-public class test {
+public class Test {
     public static void main(String[] args) {
         listtest();
         settest();

@@ -10,15 +10,13 @@
   <component name="ChangeListManager">
     <list default="true" id="fd14cda9-bbe5-48e0-bae5-66ad30f0dd43" name="Default" comment="findbugs 代码修改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pdf2Word/pdf2word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pdf2Word/Pdf2word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Postgres/JDBCOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Postgres/JDBCOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Postgres/PostgreSQLJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Postgres/PostgreSQLJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/qianghongbao/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qianghongbao/TestMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Mqtt/PushCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Mqtt/PushCallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pdf2Word/pdf2word.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pdf2Word/pdf2word.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Postgres/JDBCOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Postgres/JDBCOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Postgres/PostgreSQLJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Postgres/PostgreSQLJDBC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/qianghongbao/TestMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/三种集合比较/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/三种集合比较/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/反射/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/反射/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/图片处理/WaterMarkUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/图片处理/WaterMarkUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/流水号/Serialnumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/流水号/Serialnumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/三种集合比较/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/三种集合比较/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/反射/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/反射/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/图片处理/WaterMarkUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/图片处理/WaterMarkUtils.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -168,15 +166,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration name="Test132" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test132" />
+      <module name="testDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test132" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test132" />
-      <module name="testDemo" />
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -209,7 +207,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.SingletonDemo03" />
-      <item itemvalue="Application.test132" />
+      <item itemvalue="Application.Test132" />
       <item itemvalue="Application.App" />
       <item itemvalue="Application.App (1)" />
       <item itemvalue="Application.Clienter" />
@@ -219,7 +217,7 @@
         <item itemvalue="Application.Clienter" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.test132" />
+        <item itemvalue="Application.Test132" />
         <item itemvalue="Application.SingletonDemo03" />
       </list>
     </recent_temporary>
@@ -285,7 +283,7 @@
       <workItem from="1569554432859" duration="7000" />
       <workItem from="1569555262726" duration="39000" />
       <workItem from="1570513694487" duration="4201000" />
-      <workItem from="1570586415389" duration="6782000" />
+      <workItem from="1570586415389" duration="8500000" />
     </task>
     <task id="LOCAL-00001" summary="readme">
       <created>1557888567426</created>
@@ -392,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570591637733</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="findbugs 代码修改">
+      <created>1570594910799</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1570594910799</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
