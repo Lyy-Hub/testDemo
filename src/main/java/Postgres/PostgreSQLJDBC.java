@@ -1,5 +1,7 @@
 package Postgres;
 
+import MD5.MD5Util;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
@@ -13,7 +15,7 @@ public class PostgreSQLJDBC {
         Class.forName("org.postgresql.Driver");
         c = DriverManager
                 .getConnection("jdbc:postgresql://localhost:5432/test",
-                        "postgres", "root");
+                        "postgres", MD5Util.convertMD5("root"));
         System.out.println("Opened database successfully");
 
         stmt = c.createStatement();

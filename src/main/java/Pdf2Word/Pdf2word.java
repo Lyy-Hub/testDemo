@@ -4,7 +4,7 @@ import java.io.IOException;
 /**
  * Created by liyueyang on 2019/4/4.
  */
-public class pdf2word {
+public class Pdf2word {
     public static void main(String[] args) throws IOException {
         PDFBox pdfBox = new PDFBox();
         String pdfPath = "pdf2word.pdf";

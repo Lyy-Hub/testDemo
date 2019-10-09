@@ -8,47 +8,17 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd14cda9-bbe5-48e0-bae5-66ad30f0dd43" name="Default" comment="引入gson,优化jackson">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GlmapperGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Json解析相关/fastjson/JsonObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/适配器/MicroUSB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/适配器/TypeC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/适配器/TypeCImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/适配器/对象适配/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/适配器/对象适配/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/适配器/接口适配/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/适配器/接口适配/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/适配器/接口适配/Ashili.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/适配器/接口适配/Clienter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/适配器/类适配/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/适配器/类适配/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/testDemo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/testDemo_war_exploded.xml" afterDir="false" />
+    <list default="true" id="fd14cda9-bbe5-48e0-bae5-66ad30f0dd43" name="Default" comment="findbugs 代码修改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ActiveMQ2/TopicModel/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ActiveMQ2/TopicModel/Publisher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ActiveMQ2/TopicModel/Subscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ActiveMQ2/TopicModel/Subscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CnToSpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CnToSpell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HttpUtils/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HttpUtils/HttpUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HttpUtils/HttpUtilPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HttpUtils/HttpUtilPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Json解析相关/gson/gson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Json解析相关/gson/Gson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Json解析相关/jackson/jackson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Json解析相关/jackson/Jackson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MD5/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MD5/MD5Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Mqtt/ClientMQTT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mqtt/ClientMQTT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Mqtt/PushCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mqtt/PushCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Mqtt/ServerMQTT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mqtt/ServerMQTT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dom4jxml/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dom4jxml/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test132.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test132.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/单例/SingletonDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/设计模式/单例/SingletonDemo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/单例/SingletonDemo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/设计模式/单例/SingletonDemo02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/单例/SingletonDemo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/设计模式/单例/SingletonDemo03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ActiveMQ2/TopicModel/Publisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ActiveMQ2/TopicModel/Publisher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ActiveMQ2/TopicModel/Subscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ActiveMQ2/TopicModel/Subscriber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MD5/MD5Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MD5/MD5Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Mqtt/ClientMQTT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Mqtt/ClientMQTT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Mqtt/ServerMQTT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Mqtt/ServerMQTT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dom4jxml/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dom4jxml/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test132.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test132.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pdf2Word/pdf2word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pdf2Word/Pdf2word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Postgres/JDBCOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Postgres/JDBCOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Postgres/PostgreSQLJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Postgres/PostgreSQLJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qianghongbao/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qianghongbao/TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Mqtt/PushCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Mqtt/PushCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pdf2Word/pdf2word.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pdf2Word/pdf2word.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Postgres/JDBCOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Postgres/JDBCOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Postgres/PostgreSQLJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Postgres/PostgreSQLJDBC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/qianghongbao/TestMain.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -315,7 +285,7 @@
       <workItem from="1569554432859" duration="7000" />
       <workItem from="1569555262726" duration="39000" />
       <workItem from="1570513694487" duration="4201000" />
-      <workItem from="1570586415389" duration="5117000" />
+      <workItem from="1570586415389" duration="6782000" />
     </task>
     <task id="LOCAL-00001" summary="readme">
       <created>1557888567426</created>
@@ -415,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568798763318</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="findbugs 代码修改">
+      <created>1570591637732</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1570591637733</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -477,7 +454,8 @@
     <MESSAGE value="Format Code" />
     <MESSAGE value="引入gson,优化jackson" />
     <MESSAGE value="三种单例模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="三种单例模式" />
+    <MESSAGE value="findbugs 代码修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="findbugs 代码修改" />
   </component>
   <component name="masterDetails">
     <states>

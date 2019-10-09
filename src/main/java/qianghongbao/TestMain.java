@@ -14,18 +14,18 @@ public class TestMain {
             List<BigDecimal> moneys = math(BigDecimal.valueOf(jine), renshu);
             if (moneys != null) {
                 BigDecimal b = new BigDecimal(0);
-                String zongde = "";
+                StringBuilder zongde = new StringBuilder();
                 for (BigDecimal bigDecimal : moneys) {
                     System.out.print(bigDecimal + "  ");
-                    zongde += bigDecimal + ",";
+                    zongde.append(bigDecimal + ",");
                     b = b.add(bigDecimal);
                 }
-                System.out.println("----发了"+b+"元，"+renshu+"个人抢----");
-                String[] arr = zongde.split(",");
+                System.out.println("----发了" + b + "元，" + renshu + "个人抢----");
+                String[] arr = zongde.toString().split(",");
                 Arrays.toString(arr);
-                int[] aaa = sort(StringToInt(arr),0,renshu-1);
-                System.out.println("渣渣王："+((double)aaa[0])/100 + "元  ");
-                System.out.println("运气王："+((double)aaa[aaa.length-1])/100 + "元  ");
+                int[] aaa = sort(stringToInt(arr), 0, renshu - 1);
+                System.out.println("渣渣王：" + ((double) aaa[0]) / 100 + "元  ");
+                System.out.println("运气王：" + ((double) aaa[aaa.length - 1]) / 100 + "元  ");
                 System.out.println();
             }
         }
@@ -33,7 +33,8 @@ public class TestMain {
 
     /**
      * 计算每人获得红包金额;最小每人0.01元
-     * @param mmm 红包总额
+     *
+     * @param mmm    红包总额
      * @param number 人数
      * @return
      */
@@ -82,49 +83,49 @@ public class TestMain {
         return arrMoney;
     }
 
-    public static int[] sort(int[] a,int low,int high){
-        int mid = (low+high)/2;
-        if(low<high){
-            sort(a,low,mid);
-            sort(a,mid+1,high);
+    public static int[] sort(int[] a, int low, int high) {
+        int mid = (low + high) / 2;
+        if (low < high) {
+            sort(a, low, mid);
+            sort(a, mid + 1, high);
             //左右归并
-            merge(a,low,mid,high);
+            merge(a, low, mid, high);
         }
         return a;
     }
 
     public static void merge(int[] a, int low, int mid, int high) {
-        int[] temp = new int[high-low+1];
-        int i= low;
-        int j = mid+1;
-        int k=0;
+        int[] temp = new int[high - low + 1];
+        int i = low;
+        int j = mid + 1;
+        int k = 0;
         // 把较小的数先移到新数组中
-        while(i<=mid && j<=high){
-            if(a[i]<a[j]){
+        while (i <= mid && j <= high) {
+            if (a[i] < a[j]) {
                 temp[k++] = a[i++];
-            }else{
+            } else {
                 temp[k++] = a[j++];
             }
         }
         // 把左边剩余的数移入数组
-        while(i<=mid){
+        while (i <= mid) {
             temp[k++] = a[i++];
         }
         // 把右边边剩余的数移入数组
-        while(j<=high){
+        while (j <= high) {
             temp[k++] = a[j++];
         }
         // 把新数组中的数覆盖nums数组
-        for(int x=0;x<temp.length;x++){
-            a[x+low] = temp[x];
+        for (int x = 0; x < temp.length; x++) {
+            a[x + low] = temp[x];
         }
     }
 
-    public static int[] StringToInt(String[] arrs){
-         int[] ints = new int[arrs.length];
-         for(int i=0;i<arrs.length;i++){
-            ints[i] = (int)(Double.parseDouble(arrs[i])*100);
-         }
+    public static int[] stringToInt(String[] arrs) {
+        int[] ints = new int[arrs.length];
+        for (int i = 0; i < arrs.length; i++) {
+            ints[i] = (int) (Double.parseDouble(arrs[i]) * 100);
+        }
         return ints;
-     }
+    }
 }

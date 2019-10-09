@@ -1,5 +1,7 @@
 package Postgres;
 
+import MD5.MD5Util;
+
 import java.sql.*;
 
 /**
@@ -19,7 +21,7 @@ public class JDBCOperation {
             Connection conn = null;
             try {
                 Class.forName(driver); // classLoader,加载对应驱动
-                conn = (Connection) DriverManager.getConnection(url, username, password);
+                conn = (Connection) DriverManager.getConnection(url, username, MD5Util.convertMD5(password));
             } catch (ClassNotFoundException e) {
                 e.printStackTrace();
             } catch (SQLException e) {
@@ -43,7 +45,7 @@ public class JDBCOperation {
                 c.close();
             } catch ( Exception e ) {
                 System.err.println( e.getClass().getName()+": "+ e.getMessage() );
-                System.exit(0);
+//                System.exit(0);
             }
             System.out.println("Table created successfully");
         }
@@ -136,6 +138,8 @@ public class JDBCOperation {
                     System.out.println("");
                 }
                 System.out.println("============================");
+                conn.close();
+                pstmt.close();
             } catch (SQLException e) {
                 e.printStackTrace();
             }
