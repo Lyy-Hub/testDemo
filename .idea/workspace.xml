@@ -9,10 +9,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd14cda9-bbe5-48e0-bae5-66ad30f0dd43" name="Default" comment="引入gson,优化jackson">
+      <change afterPath="$PROJECT_DIR$/src/main/java/GlmapperGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Json解析相关/fastjson/JsonObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/适配器/MicroUSB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/适配器/TypeC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/适配器/TypeCImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/适配器/对象适配/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/适配器/对象适配/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/适配器/接口适配/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/适配器/接口适配/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/适配器/接口适配/Ashili.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/适配器/接口适配/Clienter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/适配器/类适配/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/适配器/类适配/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/testDemo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/testDemo_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gson/gson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Json解析相关/gson/gson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jackson/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Json解析相关/jackson/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jackson/jackson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Json解析相关/jackson/jackson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ActiveMQ2/TopicModel/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ActiveMQ2/TopicModel/Publisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ActiveMQ2/TopicModel/Subscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ActiveMQ2/TopicModel/Subscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CnToSpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CnToSpell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HttpUtils/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HttpUtils/HttpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HttpUtils/HttpUtilPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HttpUtils/HttpUtilPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Json解析相关/gson/gson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Json解析相关/gson/Gson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Json解析相关/jackson/jackson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Json解析相关/jackson/Jackson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MD5/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MD5/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Mqtt/ClientMQTT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mqtt/ClientMQTT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Mqtt/PushCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mqtt/PushCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Mqtt/ServerMQTT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mqtt/ServerMQTT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dom4jxml/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dom4jxml/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test132.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test132.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/单例/SingletonDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/设计模式/单例/SingletonDemo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/单例/SingletonDemo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/设计模式/单例/SingletonDemo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/单例/SingletonDemo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/设计模式/单例/SingletonDemo03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ActiveMQ2/TopicModel/Publisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ActiveMQ2/TopicModel/Publisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ActiveMQ2/TopicModel/Subscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ActiveMQ2/TopicModel/Subscriber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MD5/MD5Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MD5/MD5Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Mqtt/ClientMQTT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Mqtt/ClientMQTT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Mqtt/ServerMQTT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Mqtt/ServerMQTT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dom4jxml/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dom4jxml/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test132.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test132.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testDemo.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,25 +102,25 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\流水号\config" />
-      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\resources" />
-      <recent name="D:\GitHub-WorkSpace\testDemo\lib" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="流水号" />
-      <recent name="jackson" />
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\Json解析相关" />
       <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java" />
       <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\Lucene" />
       <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\流水号" />
       <recent name="D:\GitHub-WorkSpace\testDemo\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="流水号" />
+      <recent name="jackson" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\流水号\config" />
+      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\resources" />
+      <recent name="D:\GitHub-WorkSpace\testDemo\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -99,20 +135,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.jackson (1)">
+  <component name="RunManager" selected="Application.Clienter">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Serialnumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="流水号.Serialnumber" />
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.适配器.对象适配.App" />
       <module name="testDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="流水号.*" />
+          <option name="PATTERN" value="设计模式.适配器.对象适配.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,13 +156,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="流水号.TestOrder" />
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.适配器.类适配.App" />
       <module name="testDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="流水号.*" />
+          <option name="PATTERN" value="设计模式.适配器.类适配.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Clienter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.适配器.接口适配.Clienter" />
+      <module name="testDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="设计模式.适配器.接口适配.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonDemo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.单例.SingletonDemo03" />
+      <module name="testDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="设计模式.单例.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,44 +204,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gson.gson" />
+    <configuration name="test132" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test132" />
       <module name="testDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="jackson (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Json解析相关.jackson.jackson" />
-      <module name="testDemo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Json解析相关.jackson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="jackson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jackson.jackson" />
-      <module name="testDemo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jackson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -208,19 +238,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Serialnumber" />
-      <item itemvalue="Application.TestOrder" />
-      <item itemvalue="Application.jackson" />
-      <item itemvalue="Application.gson" />
-      <item itemvalue="Application.jackson (1)" />
+      <item itemvalue="Application.SingletonDemo03" />
+      <item itemvalue="Application.test132" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.App (1)" />
+      <item itemvalue="Application.Clienter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.jackson (1)" />
-        <item itemvalue="Application.jackson" />
-        <item itemvalue="Application.gson" />
-        <item itemvalue="Application.TestOrder" />
-        <item itemvalue="Application.Serialnumber" />
+        <item itemvalue="Application.Clienter" />
+        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.test132" />
+        <item itemvalue="Application.SingletonDemo03" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +304,18 @@
       <workItem from="1568161937575" duration="674000" />
       <workItem from="1568614715849" duration="629000" />
       <workItem from="1568685885232" duration="1039000" />
-      <workItem from="1568767225503" duration="3347000" />
+      <workItem from="1568767225503" duration="5885000" />
+      <workItem from="1568792907076" duration="2900000" />
+      <workItem from="1568799293695" duration="387000" />
+      <workItem from="1568852777254" duration="1515000" />
+      <workItem from="1568939200796" duration="3492000" />
+      <workItem from="1568949038454" duration="1023000" />
+      <workItem from="1569397604951" duration="17000" />
+      <workItem from="1569554224806" duration="11000" />
+      <workItem from="1569554432859" duration="7000" />
+      <workItem from="1569555262726" duration="39000" />
+      <workItem from="1570513694487" duration="4201000" />
+      <workItem from="1570586415389" duration="5117000" />
     </task>
     <task id="LOCAL-00001" summary="readme">
       <created>1557888567426</created>
@@ -360,7 +401,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568769658251</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="引入gson,优化jackson">
+      <created>1568771587109</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1568771587109</updated>
+    </task>
+    <task id="LOCAL-00014" summary="三种单例模式">
+      <created>1568798763318</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1568798763318</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -421,7 +476,8 @@
     <MESSAGE value="流水号" />
     <MESSAGE value="Format Code" />
     <MESSAGE value="引入gson,优化jackson" />
-    <option name="LAST_COMMIT_MESSAGE" value="引入gson,优化jackson" />
+    <MESSAGE value="三种单例模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="三种单例模式" />
   </component>
   <component name="masterDetails">
     <states>

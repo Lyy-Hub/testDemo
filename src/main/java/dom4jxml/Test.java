@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * Created by liyueyang on 2019/4/8.
  */
-public class test {
+public class Test {
     public static void main(String[] args) throws DocumentException {
         String[] string={"aaa","bbb","ccc","ddd"};
         List<String> list = new ArrayList<String>();

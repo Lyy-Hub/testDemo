@@ -17,13 +17,12 @@ public class HttpUtilPost {
     /**
      * 向指定 URL 发送POST方法的请求
      *
-     * @param - url
-     *            发送请求的 URL
-     * @param param
-     *            请求参数，请求参数应该是 name1=value1&name2=value2 的形式。
+     * @param -     url
+     *              发送请求的 URL
+     * @param param 请求参数，请求参数应该是 name1=value1&name2=value2 的形式。
      * @return 所代表远程资源的响应结果
      */
-    public static String sendPost(String urlStr, String param) throws Exception{
+    public static String sendPost(String urlStr, String param) throws Exception {
         URL url = new URL(urlStr);
         URLConnection connection = url.openConnection();
         /**
@@ -48,27 +47,27 @@ public class HttpUtilPost {
          */
         // 一旦发送成功，用以下方法就可以得到服务器的回应：
         String sCurrentLine;
-        String sTotalString;
+        StringBuilder sTotalString = new StringBuilder();
         sCurrentLine = "";
-        sTotalString = "";
         InputStream l_urlStream = connection.getInputStream();
         BufferedReader l_reader = new BufferedReader(new InputStreamReader(
-                l_urlStream,"UTF-8"));
+                l_urlStream, "UTF-8"));
         while ((sCurrentLine = l_reader.readLine()) != null) {
-            sTotalString += sCurrentLine;
+            sTotalString.append(sCurrentLine);
         }
         l_urlStream.close();
         l_reader.close();
-        return sTotalString;
+        return String.valueOf(sTotalString);
     }
+
     public static void main(String[] args) throws Exception {
         Runnable runnable = new Runnable() {
             public void run() {
                 // task to run goes here
-                String paramString="email=1095285545@qq.com&password=123456789";
+                String paramString = "email=1095285545@qq.com&password=123456789";
                 String result = null;
                 try {
-                    result = sendPost("https://portal-api.coinmarketcap.com/v1/login",paramString);
+                    result = sendPost("https://portal-api.coinmarketcap.com/v1/login", paramString);
                     System.out.println(result);
                 } catch (Exception e) {
                     e.printStackTrace();

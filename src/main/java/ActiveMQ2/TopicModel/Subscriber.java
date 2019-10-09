@@ -18,7 +18,7 @@ import org.apache.activemq.ActiveMQConnectionFactory;
 public class Subscriber {
 
     private static String brokerURL = "tcp://192.168.131.135:61616";
-    private static transient ConnectionFactory factory;
+    private transient ConnectionFactory factory;
     private transient Connection connection;
     private transient Session session;
     private transient Destination destination;

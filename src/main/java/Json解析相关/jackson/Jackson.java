@@ -8,7 +8,7 @@ import java.io.IOException;
 /**
  * Created by liyueyang on 2019/5/15.
  */
-public class jackson {
+public class Jackson {
     public static void main(String[] args) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
         User user = new User("001", "李越洋", "123456",

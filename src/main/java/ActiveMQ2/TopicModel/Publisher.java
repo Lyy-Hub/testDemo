@@ -17,13 +17,13 @@ import org.apache.activemq.command.ActiveMQMapMessage;
 
 public class Publisher {
 
-    protected int MAX_DELTA_PERCENT = 1;
-    protected Map<String, Double> LAST_PRICES = new Hashtable<String, Double>();
-    protected static int count = 1;
+    protected static final int MAX_DELTA_PERCENT = 1;
+    protected Map<String, Double> LAST_PRICES = new Hashtable<>();
+    protected static final int count = 1;
     protected static int total;
 
-    protected static String brokerURL = "tcp://192.168.131.135:61616";
-    protected static transient ConnectionFactory factory;
+    protected static final String brokerURL = "tcp://192.168.131.135:61616";
+    protected transient ConnectionFactory factory;
     protected transient Connection connection;
     protected transient Session session;
     protected transient Destination destination;

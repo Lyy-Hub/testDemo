@@ -3,6 +3,8 @@ package Mqtt;
 import org.eclipse.paho.client.mqttv3.*;
 import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 
+import java.io.UnsupportedEncodingException;
+
 /**
  * Created by revogi on 2018/6/5.
  */
@@ -78,7 +80,12 @@ public class ServerMQTT {
         server.message = new MqttMessage();
         server.message.setQos(1);
         server.message.setRetained(true);
-        server.message.setPayload("这是server发送的消息".getBytes());
+        String aa = "这是server发送的消息";
+        try {
+            server.message.setPayload(aa.getBytes("UTF-8"));
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
         server.publish(server.topic11 , server.message);
         System.out.println(server.message.isRetained() + "------ratained状态");
     }
