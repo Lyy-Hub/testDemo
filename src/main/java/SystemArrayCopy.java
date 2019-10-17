@@ -10,8 +10,13 @@ public class SystemArrayCopy {
         System.out.println("开始:"+qqq[0]);
         System.arraycopy(qq,0,qqq,0,qq.length);
         System.out.println("结束："+qqq[2]);*/
-        boolean qq = isLastDayOfMonth(new Date());
-        System.out.println(qq);
+//        boolean qq = isLastDayOfMonth(new Date());
+//        System.out.println(qq);
+
+
+        System.out.println(Calendar.getInstance().getTime());
+        Calendar aaa = getSolrTime();
+        System.out.println(aaa.getTime());
     }
     /**
      * 判断该日期是否是该月的最后一天
@@ -27,4 +32,9 @@ public class SystemArrayCopy {
                 .getActualMaximum(Calendar.DAY_OF_MONTH);
     }
 
+    public static Calendar getSolrTime(){
+        Calendar calendar = Calendar.getInstance();
+        calendar.add(Calendar.HOUR,8);
+        return calendar;
+    }
 }

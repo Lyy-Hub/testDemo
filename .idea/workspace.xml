@@ -9,14 +9,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd14cda9-bbe5-48e0-bae5-66ad30f0dd43" name="Default" comment="findbugs 代码修改">
+      <change afterPath="$PROJECT_DIR$/src/main/java/算法/Code_KMP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/三种集合比较/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/三种集合比较/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/反射/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/反射/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/图片处理/WaterMarkUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/图片处理/WaterMarkUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/流水号/Serialnumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/流水号/Serialnumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/三种集合比较/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/三种集合比较/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/反射/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/反射/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/图片处理/WaterMarkUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/图片处理/WaterMarkUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SystemArrayCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SystemArrayCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test132.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test132.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SystemArrayCopy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SystemArrayCopy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/joke$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/joke$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/joke$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/joke$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/joke.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/joke.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test132.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test132.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/zuobiaochange.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zuobiaochange.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +73,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -103,7 +106,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Clienter">
+  <component name="RunManager" selected="Application.Test132">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -117,20 +120,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="设计模式.适配器.对象适配.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="设计模式.适配器.类适配.App" />
-      <module name="testDemo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="设计模式.适配器.类适配.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,16 +141,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonDemo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="设计模式.单例.SingletonDemo03" />
+    <configuration name="Code_KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="算法.Code_KMP" />
       <module name="testDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="设计模式.单例.*" />
+          <option name="PATTERN" value="算法.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemArrayCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SystemArrayCopy" />
+      <module name="testDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -206,19 +203,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SingletonDemo03" />
-      <item itemvalue="Application.Test132" />
-      <item itemvalue="Application.App" />
       <item itemvalue="Application.App (1)" />
       <item itemvalue="Application.Clienter" />
+      <item itemvalue="Application.SystemArrayCopy" />
+      <item itemvalue="Application.Code_KMP" />
+      <item itemvalue="Application.Test132" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test132" />
+        <item itemvalue="Application.Code_KMP" />
+        <item itemvalue="Application.SystemArrayCopy" />
         <item itemvalue="Application.Clienter" />
         <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.Test132" />
-        <item itemvalue="Application.SingletonDemo03" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +280,14 @@
       <workItem from="1569554432859" duration="7000" />
       <workItem from="1569555262726" duration="39000" />
       <workItem from="1570513694487" duration="4201000" />
-      <workItem from="1570586415389" duration="8500000" />
+      <workItem from="1570586415389" duration="8756000" />
+      <workItem from="1570606328426" duration="1003000" />
+      <workItem from="1570609304433" duration="1033000" />
+      <workItem from="1570780119215" duration="24000" />
+      <workItem from="1571103988126" duration="5563000" />
+      <workItem from="1571277142721" duration="3865000" />
+      <workItem from="1571290721111" duration="313000" />
+      <workItem from="1571291054192" duration="1052000" />
     </task>
     <task id="LOCAL-00001" summary="readme">
       <created>1557888567426</created>
@@ -397,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570594910799</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="findbugs 代码修改">
+      <created>1570600200476</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1570600200476</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
