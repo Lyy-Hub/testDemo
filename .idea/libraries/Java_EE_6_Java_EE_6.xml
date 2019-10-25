@@ -14,6 +14,8 @@
       <root url="jar://$PROJECT_DIR$/lib/org.eclipse.paho.client.mqttv3-1.2.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/pdfbox-1.8.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/pdfbox-yanhui.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/core-3.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/QRCode.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

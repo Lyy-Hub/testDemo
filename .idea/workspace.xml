@@ -9,17 +9,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd14cda9-bbe5-48e0-bae5-66ad30f0dd43" name="Default" comment="findbugs 代码修改">
-      <change afterPath="$PROJECT_DIR$/src/main/java/算法/Code_KMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/QRCode.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core-3.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/er/CreateQRCode2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/san/BufferedImageLuminanceSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/san/QRCodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/san/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/yi/CreateQRCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/yi/MyQRCodeImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/yi/ReadQRCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/距离指定时间还有多少天.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SystemArrayCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SystemArrayCopy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test132.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test132.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SystemArrayCopy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SystemArrayCopy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/joke$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/joke$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/joke$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/joke$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/joke.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/joke.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test132.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test132.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zuobiaochange.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zuobiaochange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestEquals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Data$Outputter1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testEquals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testDemo.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,19 +81,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Json解析相关" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/core-3.3.3.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub-WorkSpace\testDemo\lib" />
       <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\Json解析相关" />
       <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java" />
       <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\Lucene" />
       <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\流水号" />
-      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="流水号" />
@@ -106,20 +118,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test132">
+  <component name="RunManager" selected="Application.ReadQRCode">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="设计模式.适配器.对象适配.App" />
+    <configuration name="距离指定时间还有多少天" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="距离指定时间还有多少天" />
+      <module name="testDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateQRCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="二维码生成与解析.yi.CreateQRCode" />
       <module name="testDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="设计模式.适配器.对象适配.*" />
+          <option name="PATTERN" value="二维码生成与解析.er.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,13 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Clienter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="设计模式.适配器.接口适配.Clienter" />
+    <configuration name="CreateQRCode2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="二维码生成与解析.er.CreateQRCode2" />
       <module name="testDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="设计模式.适配器.接口适配.*" />
+          <option name="PATTERN" value="二维码生成与解析.er.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,13 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code_KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="算法.Code_KMP" />
+    <configuration name="ReadQRCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="二维码生成与解析.yi.ReadQRCode" />
       <module name="testDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="算法.*" />
+          <option name="PATTERN" value="二维码生成与解析.er.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,18 +175,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemArrayCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SystemArrayCopy" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="二维码生成与解析.san.Test" />
       <module name="testDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test132" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test132" />
-      <module name="testDemo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="二维码生成与解析.san.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -203,19 +221,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.App (1)" />
-      <item itemvalue="Application.Clienter" />
-      <item itemvalue="Application.SystemArrayCopy" />
-      <item itemvalue="Application.Code_KMP" />
-      <item itemvalue="Application.Test132" />
+      <item itemvalue="Application.距离指定时间还有多少天" />
+      <item itemvalue="Application.CreateQRCode" />
+      <item itemvalue="Application.ReadQRCode" />
+      <item itemvalue="Application.CreateQRCode2" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test132" />
-        <item itemvalue="Application.Code_KMP" />
-        <item itemvalue="Application.SystemArrayCopy" />
-        <item itemvalue="Application.Clienter" />
-        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.ReadQRCode" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.CreateQRCode2" />
+        <item itemvalue="Application.CreateQRCode" />
+        <item itemvalue="Application.距离指定时间还有多少天" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +305,11 @@
       <workItem from="1571103988126" duration="5563000" />
       <workItem from="1571277142721" duration="3865000" />
       <workItem from="1571290721111" duration="313000" />
-      <workItem from="1571291054192" duration="1052000" />
+      <workItem from="1571291054192" duration="1090000" />
+      <workItem from="1571814365417" duration="958000" />
+      <workItem from="1571815978586" duration="251000" />
+      <workItem from="1571965099826" duration="2088000" />
+      <workItem from="1571967325147" duration="5970000" />
     </task>
     <task id="LOCAL-00001" summary="readme">
       <created>1557888567426</created>
@@ -408,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570600200476</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="findbugs 代码修改">
+      <created>1571292118900</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1571292118900</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -472,94 +501,5 @@
     <MESSAGE value="三种单例模式" />
     <MESSAGE value="findbugs 代码修改" />
     <option name="LAST_COMMIT_MESSAGE" value="findbugs 代码修改" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>testDemo:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>testDemo</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Java EE 6-Java EE 6</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
