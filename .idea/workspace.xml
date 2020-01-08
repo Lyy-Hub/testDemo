@@ -8,29 +8,22 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd14cda9-bbe5-48e0-bae5-66ad30f0dd43" name="Default" comment="findbugs 代码修改">
-      <change afterPath="$PROJECT_DIR$/lib/QRCode.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/core-3.3.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/er/CreateQRCode2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/san/BufferedImageLuminanceSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/san/QRCodeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/san/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/yi/CreateQRCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/yi/MyQRCodeImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/yi/ReadQRCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/距离指定时间还有多少天.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+    <list default="true" id="fd14cda9-bbe5-48e0-bae5-66ad30f0dd43" name="Default" comment="二维码生成与解析">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TokenBucket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/yi/Stu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/yi/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/testDemo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/testDemo_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestEquals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data$Outputter1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testEquals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Postgres/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Postgres/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test132.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test132.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Testq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Testq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/二维码生成与解析/er/CreateQRCode2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/er/CreateQRCode2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/二维码生成与解析/san/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/san/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/二维码生成与解析/yi/CreateQRCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/yi/CreateQRCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/图片处理/Base64Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/图片处理/Base64Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/流水号/upload.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/流水号/upload.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test132.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test132.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testq.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testDemo.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,7 +74,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/core-3.3.3.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Tools" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -89,11 +82,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\Tools" />
       <recent name="D:\GitHub-WorkSpace\testDemo\lib" />
       <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\Json解析相关" />
       <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java" />
       <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\Lucene" />
-      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\流水号" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="流水号" />
@@ -118,59 +111,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadQRCode">
+  <component name="RunManager" selected="Application.Testq">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="距离指定时间还有多少天" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="距离指定时间还有多少天" />
-      <module name="testDemo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateQRCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="二维码生成与解析.yi.CreateQRCode" />
-      <module name="testDemo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="二维码生成与解析.er.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateQRCode2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="二维码生成与解析.er.CreateQRCode2" />
-      <module name="testDemo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="二维码生成与解析.er.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadQRCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="二维码生成与解析.yi.ReadQRCode" />
-      <module name="testDemo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="二维码生成与解析.er.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -189,8 +132,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test132" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test132" />
+      <module name="testDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Testq" />
+      <module name="testDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TokenBucket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TokenBucket" />
+      <module name="testDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Base64Test.baseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="图片处理.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="图片处理" />
+      <option name="MAIN_CLASS_NAME" value="图片处理.Base64Test" />
+      <option name="METHOD_NAME" value="baseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -221,19 +205,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.距离指定时间还有多少天" />
-      <item itemvalue="Application.CreateQRCode" />
-      <item itemvalue="Application.ReadQRCode" />
-      <item itemvalue="Application.CreateQRCode2" />
+      <item itemvalue="Application.Test132" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.TokenBucket" />
+      <item itemvalue="Application.Testq" />
+      <item itemvalue="JUnit.Base64Test.baseTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReadQRCode" />
+        <item itemvalue="Application.Testq" />
+        <item itemvalue="Application.TokenBucket" />
+        <item itemvalue="Application.Test132" />
+        <item itemvalue="JUnit.Base64Test.baseTest" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.CreateQRCode2" />
-        <item itemvalue="Application.CreateQRCode" />
-        <item itemvalue="Application.距离指定时间还有多少天" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +293,41 @@
       <workItem from="1571814365417" duration="958000" />
       <workItem from="1571815978586" duration="251000" />
       <workItem from="1571965099826" duration="2088000" />
-      <workItem from="1571967325147" duration="5970000" />
+      <workItem from="1571967325147" duration="7827000" />
+      <workItem from="1571983995673" duration="119000" />
+      <workItem from="1571984255354" duration="971000" />
+      <workItem from="1572586715649" duration="3303000" />
+      <workItem from="1573110192325" duration="10000" />
+      <workItem from="1573963583646" duration="702000" />
+      <workItem from="1574133699537" duration="1580000" />
+      <workItem from="1574142390818" duration="623000" />
+      <workItem from="1575610431694" duration="875000" />
+      <workItem from="1575872572194" duration="6788000" />
+      <workItem from="1575937591451" duration="792000" />
+      <workItem from="1575945842736" duration="672000" />
+      <workItem from="1575960119272" duration="272000" />
+      <workItem from="1575979999190" duration="631000" />
+      <workItem from="1576024326495" duration="44000" />
+      <workItem from="1576045272253" duration="40000" />
+      <workItem from="1576051792672" duration="95000" />
+      <workItem from="1576052008678" duration="963000" />
+      <workItem from="1576054519184" duration="780000" />
+      <workItem from="1576059937820" duration="700000" />
+      <workItem from="1576116916165" duration="130000" />
+      <workItem from="1576128565036" duration="337000" />
+      <workItem from="1576199102998" duration="359000" />
+      <workItem from="1576475961138" duration="2956000" />
+      <workItem from="1576542241506" duration="57000" />
+      <workItem from="1576721853905" duration="6503000" />
+      <workItem from="1576801744148" duration="2925000" />
+      <workItem from="1577154357526" duration="204000" />
+      <workItem from="1577231926318" duration="79000" />
+      <workItem from="1577330326650" duration="210000" />
+      <workItem from="1577345387412" duration="310000" />
+      <workItem from="1577345773704" duration="551000" />
+      <workItem from="1578374686564" duration="1757000" />
+      <workItem from="1578377331699" duration="3150000" />
+      <workItem from="1578443372220" duration="2667000" />
     </task>
     <task id="LOCAL-00001" summary="readme">
       <created>1557888567426</created>
@@ -437,40 +455,15 @@
       <option name="project" value="LOCAL" />
       <updated>1571292118900</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="二维码生成与解析">
+      <created>1571973594533</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1571973594533</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="SolrTest_Test2 - 2019.05.28 at 15h 34m 27s.xml">
-      <configuration name="SolrTest.Test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolrTest_Test2 - 2019.05.28 at 15h 36m 42s.xml">
-      <configuration name="SolrTest.Test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolrTest_Test2 - 2019.05.28 at 15h 37m 36s.xml">
-      <configuration name="SolrTest.Test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolrTest_testQuery - 2019.05.28 at 15h 32m 15s.xml">
-      <configuration name="SolrTest.testQuery" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolrTest_testQuery - 2019.05.28 at 15h 37m 20s.xml">
-      <configuration name="SolrTest.testQuery" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolrTest_testQuery - 2019.05.28 at 15h 39m 49s.xml">
-      <configuration name="SolrTest.testQuery" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolrTest_testQuery - 2019.05.28 at 15h 41m 53s.xml">
-      <configuration name="SolrTest.testQuery" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolrTest_testQuery - 2019.05.28 at 15h 42m 14s.xml">
-      <configuration name="SolrTest.testQuery" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolrTest_testQuery - 2019.05.28 at 15h 42m 36s.xml">
-      <configuration name="SolrTest.testQuery" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolrTest_testTokenStream - 2019.05.29 at 14h 50m 41s.xml">
-      <configuration name="SolrTest.testTokenStream" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -500,6 +493,7 @@
     <MESSAGE value="引入gson,优化jackson" />
     <MESSAGE value="三种单例模式" />
     <MESSAGE value="findbugs 代码修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="findbugs 代码修改" />
+    <MESSAGE value="二维码生成与解析" />
+    <option name="LAST_COMMIT_MESSAGE" value="二维码生成与解析" />
   </component>
 </project>

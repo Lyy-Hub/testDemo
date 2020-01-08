@@ -5,12 +5,13 @@ public class 车牌号 {
 
     public static void main(String[] args) {
         int score = 1;
-        switch (score){
+        switch (score) {
             case 1:
                 System.out.println(parkNo());
         }
     }
-    public static String parkNo(){
+
+    public static String parkNo() {
         int count = 0;
         String carNo = "";
         while (count < 5) {

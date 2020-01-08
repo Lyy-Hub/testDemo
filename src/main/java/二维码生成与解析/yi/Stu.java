@@ -1,20 +1,13 @@
-package Postgres;
+package 二维码生成与解析.yi;
 
 /**
- * Created by liyueyang on 2019/1/21.
+ * Created by liYueYang on 2019/11/1.
  */
-public class Student {
+public class Stu {
     private String Id;
     private String Name;
     private String Sex;
-    private String Age;
-
-    Student(String Id, String Name, String Sex, String Age) {
-        this.Id = Id; //default
-        this.Name = Name;
-        this.Sex = Sex;
-        this.Age = Age;
-    }
+    private Integer Age;
 
     public String getId() {
         return Id;
@@ -40,11 +33,11 @@ public class Student {
         Sex = sex;
     }
 
-    public String getAge() {
+    public Integer getAge() {
         return Age;
     }
 
-    public void setAge(String age) {
+    public void setAge(Integer age) {
         Age = age;
     }
 }

@@ -18,11 +18,11 @@ public class SystemArrayCopy {
         Calendar aaa = getSolrTime();
         System.out.println(aaa.getTime());
     }
+
     /**
      * 判断该日期是否是该月的最后一天
      *
-     * @param date
-     *            需要判断的日期
+     * @param date 需要判断的日期
      * @return
      */
     public static boolean isLastDayOfMonth(Date date) {
@@ -32,9 +32,9 @@ public class SystemArrayCopy {
                 .getActualMaximum(Calendar.DAY_OF_MONTH);
     }
 
-    public static Calendar getSolrTime(){
+    public static Calendar getSolrTime() {
         Calendar calendar = Calendar.getInstance();
-        calendar.add(Calendar.HOUR,8);
+        calendar.add(Calendar.HOUR, 8);
         return calendar;
     }
 }

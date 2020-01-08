@@ -32,7 +32,7 @@ public class GlmapperGeneric<T> {
         System.out.println(test);
     }
 
-    public class testqwe<T>{
+    public class testqwe<T> {
 
     }
 }

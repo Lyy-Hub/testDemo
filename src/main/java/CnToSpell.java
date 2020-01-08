@@ -53,9 +53,9 @@ public class CnToSpell {
                 convert.append(word);
             }
         }
-        for(int i=0;i<convert.length();i++){//convert目前为小写首字母,下面是将小写首字母转化为大写
-            if(convert.charAt(i)>='a' && convert.charAt(i)<='z'){
-                temp=convert.substring(i,i+1).toUpperCase();
+        for (int i = 0; i < convert.length(); i++) {//convert目前为小写首字母,下面是将小写首字母转化为大写
+            if (convert.charAt(i) >= 'a' && convert.charAt(i) <= 'z') {
+                temp = convert.substring(i, i + 1).toUpperCase();
                 demo.append(temp);
             }
         }

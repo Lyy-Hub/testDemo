@@ -1,5 +1,6 @@
 package 二维码生成与解析.yi;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.swetake.util.Qrcode;
 
 import javax.imageio.ImageIO;
@@ -7,6 +8,8 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by liYueYang on 2019/10/25.
@@ -32,7 +35,24 @@ public class CreateQRCode {
         x.setQrcodeErrorCorrect('L');
         x.setQrcodeEncodeMode('B');//注意版本信息 N代表数字 、A代表 a-z,A-Z、B代表 其他)
         x.setQrcodeVersion(v);//版本号  1-40
-        String qrData = "www.1hhhh.com";//内容信息
+
+
+        Teacher teacher = new Teacher();
+        teacher.setId("ls0001");
+        teacher.setName("张三");
+        List<Stu> stuList = new ArrayList();
+        Stu student = new Stu();
+        student.setId("xs001");
+        student.setAge(18);
+        student.setSex("男");
+        student.setName("学生1");
+        stuList.add(student);
+        teacher.setStudentList(stuList);
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        String qq = objectMapper.writeValueAsString(teacher);
+        System.out.println(qq);
+        String qrData = qq;//内容信息
 
         byte[] d = qrData.getBytes("utf-8");//汉字转格式需要抛出异常
 
@@ -42,8 +62,8 @@ public class CreateQRCode {
         //绘图
         Graphics2D gs = bufferedImage.createGraphics();
 
-        gs.setBackground(Color.WHITE);
-        gs.setColor(Color.BLACK);
+        gs.setBackground(new Color(255, 252, 24));
+        gs.setColor(new Color(14, 26, 255));
         gs.clearRect(0, 0, width, height);
 
         //偏移量

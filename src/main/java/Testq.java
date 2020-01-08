@@ -1,12 +1,12 @@
+import java.io.*;
 
 public class Testq {
-    public static void main(String[] args) {
-        String ip1 = "22.10.168.192";
-        String ip2 = "";
-        String[] ipStr = ip1.split("\\.");
-        for(int i = 0; i < ipStr.length; i++){
-            ip2 += ipStr[ipStr.length - 1 - i] + ".";
+    public static void main(String[] args) throws IOException {
+        String fileName = "http://49.233.168.239:8002/3.png";
+        File file = new File(fileName);
+        System.out.println(file.exists());
+        if (!file.exists()) {
+            file.mkdirs();
         }
-        System.out.println(ip2.substring(0,ip2.length() - 1));
     }
 }

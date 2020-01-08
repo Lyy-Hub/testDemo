@@ -20,9 +20,9 @@ public class ArrayStack {
         if (count == n) return false;
         // 将 item 放到下标为 count 的位置，并且 count 加一
         items[count] = item;
-        ++ count;
-        System.out.println("入count:"+count);
-        System.out.println("入n:"+n);
+        ++count;
+        System.out.println("入count:" + count);
+        System.out.println("入n:" + n);
         return true;
     }
 
@@ -31,10 +31,10 @@ public class ArrayStack {
         // 栈为空，则直接返回 null
         if (count == 0) return null;
         // 返回下标为 count-1 的数组元素，并且栈中元素个数 count 减一
-        String tmp = items[count-1];
-        -- count;
-        System.out.println("出count:"+count);
-        System.out.println("出n:"+n);
+        String tmp = items[count - 1];
+        --count;
+        System.out.println("出count:" + count);
+        System.out.println("出n:" + n);
         return tmp;
     }
 }

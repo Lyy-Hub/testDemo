@@ -7,21 +7,16 @@ public class HelloServlet extends HttpServlet {
 
     private String message;
 
-    public void init() throws ServletException
-    {
+    public void init() throws ServletException {
         // 执行必需的初始化
         message = "Hello World";
     }
-    public void service(ServletRequest request,
-                        ServletResponse response)
-            throws ServletException, IOException{
+
+    public void service(ServletRequest request, ServletResponse response) throws ServletException, IOException {
 
     }
 
-    public void doGet(HttpServletRequest request,
-                      HttpServletResponse response)
-            throws ServletException, IOException
-    {
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // 设置响应内容类型
         response.setContentType("text/html");
 
@@ -31,11 +26,10 @@ public class HelloServlet extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        doGet(req,resp);
+        doGet(req, resp);
     }
 
-    public void destroy()
-    {
+    public void destroy() {
         // 什么也不做
     }
 }

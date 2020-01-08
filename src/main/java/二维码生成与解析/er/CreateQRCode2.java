@@ -131,7 +131,7 @@ public class CreateQRCode2 {
     public static void main(String[] args) {
         File bgImgFile = new File("G://shendan.jpg");//背景图片
         File QrCodeFile = new File("G://beijing.png");//生成图片位置
-        String url = "https://blog.csdn.net/weixin_38407595";//二维码链接
+        String url = "https://mp.weixin.qq.com/s/vKrUGb7J036aI9lcnfmC7A";//二维码链接
         String note = "";//文字描述
         String tui = "";//文字描述
 

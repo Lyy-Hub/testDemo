@@ -49,6 +49,7 @@ import org.xml.sax.SAXException;
 
 /**
  * XDoc鏈嶅姟
+ *
  * @author xdoc
  * @version 11.4.2
  */
@@ -63,49 +64,62 @@ public class XDocService {
     public static String DEFAULT_KEY = "";
     private String url;
     private String key;
+
     /**
      * 鏈嶅姟鍦板潃
+     *
      * @return
      */
     public String getUrl() {
         return url;
     }
+
     /**
      * 鏈嶅姟鍦板潃
+     *
      * @param url
      */
     public void setUrl(String url) {
         this.url = url;
     }
+
     /**
      * 璐﹀彿鍙ｄ护
+     *
      * @return
      */
     public String getKey() {
         return key;
     }
+
     /**
      * 璐﹀彿鍙ｄ护
+     *
      * @param key
      */
     public void setKey(String key) {
         this.key = key;
     }
+
     /**
      * 鏋勯€犲櫒
      */
     public XDocService() {
         this(DEFAULT_URL, DEFAULT_KEY);
     }
+
     /**
      * 鏋勯€犲櫒
+     *
      * @param url 鏈嶅姟鍦板潃
      */
     public XDocService(String url) {
         this(url, DEFAULT_KEY);
     }
+
     /**
      * 鏋勯€犲櫒
+     *
      * @param url 鏈嶅姟鍦板潃
      * @param key 璐﹀彿
      */
@@ -113,8 +127,10 @@ public class XDocService {
         this.url = url;
         this.key = key;
     }
+
     /**
      * 杞崲涓哄叾瀹冩牸寮忔枃浠�
+     *
      * @param xdoc xdoc
      * @param file 鍏跺畠鏍煎紡鏂囦欢锛屽锛歛.pdf
      * @throws IOException
@@ -122,24 +138,28 @@ public class XDocService {
     public void to(File xdoc, File file) throws IOException {
         to(xdoc.getAbsolutePath(), file);
     }
+
     /**
      * 杞崲涓哄叾瀹冩牸寮忔枃浠�
+     *
      * @param xdoc xdoc鏂囨湰<br>
-     *        URL锛氭枃妗RL鍦板潃锛屾牸寮忔敮鎸侊細xdoc銆乯son銆乨ocx銆乪pub銆乼xt銆乺tf绛夛紝鏀寔datauri鍗忚锛屽彲浼犻€掍簩杩涘埗鏁版嵁锛屾敮鎸佹湰鍦版枃浠�<br>
-     *        绾枃鏈細浠�"text:"寮€澶寸殑鏂囨湰<br>
-     *        JSON锛氱鍚圶DOC-JSON瑙勮寖鐨凧SON鏂囨湰<br>
-     *        XML锛氱鍚圶DOC-XML瑙勮寖鐨刋ML鏂囨湰<br>
-     *        HTML锛氱敤html鏍囩鎷捣鏉ョ殑html鏂囨湰锛屽锛�&lt;html&gt;&lt;h1&gt;Hello&lt;/h1&gt;&lt;/html&gt;
+     *             URL锛氭枃妗RL鍦板潃锛屾牸寮忔敮鎸侊細xdoc銆乯son銆乨ocx銆乪pub銆乼xt銆乺tf绛夛紝鏀寔datauri鍗忚锛屽彲浼犻€掍簩杩涘埗鏁版嵁锛屾敮鎸佹湰鍦版枃浠�<br>
+     *             绾枃鏈細浠�"text:"寮€澶寸殑鏂囨湰<br>
+     *             JSON锛氱鍚圶DOC-JSON瑙勮寖鐨凧SON鏂囨湰<br>
+     *             XML锛氱鍚圶DOC-XML瑙勮寖鐨刋ML鏂囨湰<br>
+     *             HTML锛氱敤html鏍囩鎷捣鏉ョ殑html鏂囨湰锛屽锛�&lt;html&gt;&lt;h1&gt;Hello&lt;/h1&gt;&lt;/html&gt;
      * @param file 鍏跺畠鏍煎紡鏂囦欢锛屽锛歛.pdf
      * @throws IOException
      */
     public void to(String xdoc, File file) throws IOException {
         to(xdoc, new FileOutputStream(file), getFormat(file.getName()));
     }
+
     /**
      * 杞崲涓哄叾瀹冩牸寮忥紝淇濆瓨鍒版寚瀹氭祦涓�
-     * @param xdoc xdoc
-     * @param out 杈撳嚭鐩爣锛孫utputStream鎴朒ttpServletResponse
+     *
+     * @param xdoc   xdoc
+     * @param out    杈撳嚭鐩爣锛孫utputStream鎴朒ttpServletResponse
      * @param format format
      * @throws IOException
      */
@@ -150,10 +170,12 @@ public class XDocService {
         param.put("_format", format);
         invoke(checkParam(param), out);
     }
+
     /**
      * 杞崲涓哄叾瀹冩牸寮忓苟鍙戦€�
-     * @param xdoc xdoc
-     * @param to 鐩爣锛屾敮鎸乫tp銆乭ttp銆乵ail銆乨atauri绛�
+     *
+     * @param xdoc   xdoc
+     * @param to     鐩爣锛屾敮鎸乫tp銆乭ttp銆乵ail銆乨atauri绛�
      * @param format format
      * @throws IOException
      */
@@ -167,11 +189,13 @@ public class XDocService {
         invoke(checkParam(param), out);
         return new String(out.toByteArray(), "UTF-8");
     }
+
     /**
      * 杩愯xdoc
-     * @param xdoc xdoc
+     *
+     * @param xdoc  xdoc
      * @param param 鍙傛暟
-     * @param file 鐩爣鏂囦欢
+     * @param file  鐩爣鏂囦欢
      * @throws IOException
      */
     public void run(File xdoc, Map<String, Object> param, File file) throws IOException {
@@ -180,21 +204,25 @@ public class XDocService {
         }
         run(xdoc.getAbsolutePath(), param, file);
     }
+
     /**
      * 杩愯xdoc
-     * @param xdoc xdoc
+     *
+     * @param xdoc  xdoc
      * @param param 鍙傛暟
-     * @param file 鐩爣鏂囦欢
+     * @param file  鐩爣鏂囦欢
      * @throws IOException
      */
     public void run(String xdoc, Map<String, Object> param, File file) throws IOException {
         run(xdoc, param, new FileOutputStream(file), getFormat(file.getName()));
     }
+
     /**
      * 杩愯xdoc
-     * @param xdoc xdoc
-     * @param param 鍙傛暟
-     * @param out 杈撳嚭鐩爣锛孫utputStream鎴朒ttpServletResponse
+     *
+     * @param xdoc   xdoc
+     * @param param  鍙傛暟
+     * @param out    杈撳嚭鐩爣锛孫utputStream鎴朒ttpServletResponse
      * @param format 鐩爣鏍煎紡
      * @throws IOException
      */
@@ -204,11 +232,13 @@ public class XDocService {
         param.put("_format", format);
         invoke(checkParam(param), out);
     }
+
     /**
      * 杩愯xdoc骞跺彂閫�
-     * @param xdoc xdoc
-     * @param param 鍙傛暟
-     * @param to 鐩爣锛屾敮鎸乫tp銆乭ttp銆乵ail銆乨atauri绛�
+     *
+     * @param xdoc   xdoc
+     * @param param  鍙傛暟
+     * @param to     鐩爣锛屾敮鎸乫tp銆乭ttp銆乵ail銆乨atauri绛�
      * @param format 鐩爣鏍煎紡
      * @throws IOException
      */
@@ -221,8 +251,10 @@ public class XDocService {
         invoke(checkParam(param), out);
         return new String(out.toByteArray(), "UTF-8");
     }
+
     /**
      * 杩愯娉ㄨВXDoc
+     *
      * @param obj
      * @param file
      * @throws IOException
@@ -230,26 +262,31 @@ public class XDocService {
     public void run(Object obj, File file) throws IOException {
         run(obj, new FileOutputStream(file), getFormat(file.getName()));
     }
+
     /**
      * 杩愯娉ㄨВXDoc
+     *
      * @param obj
-     * @param out 鐩爣娴�
+     * @param out    鐩爣娴�
      * @param format 鐩爣鏍煎紡
      * @throws IOException
      */
     public void run(Object obj, Object out, String format) throws IOException {
         run(obj, out, null, format);
     }
+
     /**
      * 杩愯娉ㄨВXDoc
+     *
      * @param obj
-     * @param to 鐩爣锛屾敮鎸乫tp銆乭ttp銆乵ail銆乨atauri绛�
+     * @param to     鐩爣锛屾敮鎸乫tp銆乭ttp銆乵ail銆乨atauri绛�
      * @param format 鐩爣鏍煎紡
      * @throws IOException
      */
     public void run(Object obj, String to, String format) throws IOException {
         run(obj, null, to, format);
     }
+
     private void run(Object obj, Object out, String to, String format) throws IOException {
         String xurl = "";
         XDoc xdoc = obj.getClass().getAnnotation(XDoc.class);
@@ -302,38 +339,47 @@ public class XDocService {
             this.run(xurl, param, to, format);
         }
     }
+
     /**
      * 鎷涘懠
+     *
      * @return
      * @throws IOException
      */
     public boolean hi() throws IOException {
         return invokeStringFunc("hi").equals("ok");
     }
+
     /**
      * 鍏充簬
      */
     public String about() throws IOException {
         return invokeStringFunc("about");
     }
+
     /**
      * 鍔ㄦ€佸彛浠�
+     *
      * @return
      * @throws IOException
      */
     public String dkey() throws IOException {
         return invokeStringFunc("dkey");
     }
+
     /**
      * 淇敼鍙ｄ护
+     *
      * @return
      * @throws IOException
      */
     public String ckey() throws IOException {
         return invokeStringFunc("ckey");
     }
+
     /**
      * 娉ㄥ唽
+     *
      * @param mail 閭欢
      * @return
      * @throws IOException
@@ -346,8 +392,10 @@ public class XDocService {
         invoke(params, out);
         return (String) parse(out.toByteArray());
     }
+
     /**
      * 璐︽埛淇℃伅
+     *
      * @return
      * @throws IOException
      */
@@ -359,8 +407,10 @@ public class XDocService {
         invoke(params, out);
         return (Map<String, String>) parse(out.toByteArray());
     }
+
     /**
      * 鍩轰簬ID涓婁紶
+     *
      * @param id
      * @param file
      * @return
@@ -369,8 +419,10 @@ public class XDocService {
     public void sup(String id, File file) throws IOException {
         sup(id, toDataURI(file.getAbsolutePath()));
     }
+
     /**
      * 鍩轰簬ID涓婁紶
+     *
      * @param id
      * @param in
      * @throws IOException
@@ -378,6 +430,7 @@ public class XDocService {
     public void sup(String id, InputStream in) throws IOException {
         sup(id, toDataURI(in));
     }
+
     private void sup(String id, String dataUri) throws IOException {
         Map<String, String> params = new HashMap<String, String>();
         params.put("_func", "sup");
@@ -387,8 +440,10 @@ public class XDocService {
         invoke(params, out);
         parse(out.toByteArray());
     }
+
     /**
      * 鍩轰簬ID涓嬭浇
+     *
      * @param id
      * @param file
      * @throws IOException
@@ -396,8 +451,10 @@ public class XDocService {
     public void sdown(String id, File file) throws IOException {
         sdown(id, new FileOutputStream(file));
     }
+
     /**
      * 鍩轰簬ID涓嬭浇
+     *
      * @param id
      * @param out 杈撳嚭鐩爣锛孫utputStream鎴朒ttpServletResponse
      * @throws IOException
@@ -408,8 +465,10 @@ public class XDocService {
         params.put("_id", id);
         invoke(params, out);
     }
+
     /**
      * 鍩轰簬ID鍒犻櫎
+     *
      * @param id
      * @return
      * @throws IOException
@@ -422,8 +481,10 @@ public class XDocService {
         invoke(params, out);
         return parse(out.toByteArray()).equals("ok");
     }
+
     /**
      * 鍒涘缓鐩綍
+     *
      * @param dir
      * @return
      * @throws IOException
@@ -436,8 +497,10 @@ public class XDocService {
         invoke(params, out);
         return parse(out.toByteArray()).equals("ok");
     }
+
     /**
      * 鐩綍鍒楄〃
+     *
      * @param dir
      * @return
      * @throws IOException
@@ -451,8 +514,10 @@ public class XDocService {
         invoke(params, out);
         return (List<Map<String, String>>) parse(out.toByteArray());
     }
+
     /**
      * 鏂囦欢鍒楄〃
+     *
      * @param dir
      * @return
      * @throws IOException
@@ -466,8 +531,10 @@ public class XDocService {
         invoke(params, out);
         return (List<Map<String, String>>) parse(out.toByteArray());
     }
+
     /**
      * 涓婁紶
+     *
      * @param dir
      * @param file
      * @return
@@ -476,8 +543,10 @@ public class XDocService {
     public void up(String dir, File file) throws IOException {
         up(dir, toDataURI(file.getAbsolutePath()));
     }
+
     /**
      * 涓婁紶
+     *
      * @param dir
      * @param in
      * @throws IOException
@@ -485,6 +554,7 @@ public class XDocService {
     public void up(String dir, InputStream in) throws IOException {
         up(dir, toDataURI(in));
     }
+
     private void up(String dir, String dataUri) throws IOException {
         Map<String, String> params = new HashMap<String, String>();
         params.put("_func", "up");
@@ -494,8 +564,10 @@ public class XDocService {
         invoke(params, out);
         parse(out.toByteArray());
     }
+
     /**
      * 涓嬭浇
+     *
      * @param dir
      * @param file
      * @throws IOException
@@ -503,8 +575,10 @@ public class XDocService {
     public void down(String dir, File file) throws IOException {
         down(dir, new FileOutputStream(file));
     }
+
     /**
      * 涓嬭浇
+     *
      * @param dir
      * @param out 杈撳嚭鐩爣锛孫utputStream鎴朒ttpServletResponse
      * @throws IOException
@@ -515,8 +589,10 @@ public class XDocService {
         params.put("_dir", dir);
         invoke(params, out);
     }
+
     /**
      * 鍒犻櫎
+     *
      * @param dir
      * @return
      * @throws IOException
@@ -529,8 +605,10 @@ public class XDocService {
         invoke(params, out);
         return parse(out.toByteArray()).equals("ok");
     }
+
     /**
      * 鏂囦欢鏄惁瀛樺湪
+     *
      * @param dir
      * @return
      * @throws IOException
@@ -543,8 +621,10 @@ public class XDocService {
         invoke(params, out);
         return parse(out.toByteArray()).equals("true");
     }
+
     /**
      * 鏁版嵁鏌ヨ
+     *
      * @param sql SQL
      * @return
      * @throws IOException
@@ -558,8 +638,10 @@ public class XDocService {
         invoke(params, out);
         return (List<Map<String, String>>) parse(out.toByteArray());
     }
+
     /**
      * 鍩轰簬ID鐨刋DATA杞崲
+     *
      * @param id
      * @param format 鐩爣鏍煎紡锛歺ml銆乯son銆乧sv
      * @return
@@ -574,9 +656,11 @@ public class XDocService {
         invoke(params, out);
         return (String) parse(out.toByteArray());
     }
+
     /**
      * XDATA杞崲
-     * @param data xdata鏁版嵁锛屾牸寮忥細xml銆乯son銆乧sv
+     *
+     * @param data   xdata鏁版嵁锛屾牸寮忥細xml銆乯son銆乧sv
      * @param format 鐩爣鏍煎紡锛歺ml銆乯son銆乧sv
      * @return
      * @throws IOException
@@ -590,8 +674,10 @@ public class XDocService {
         invoke(params, out);
         return (String) parse(out.toByteArray());
     }
+
     /**
      * 閫氳繃url鍦板潃璋冪敤鏈嶅姟锛屾敮鎸佹湰鍦版枃浠秞doc鍜寈data
+     *
      * @param args
      */
     public static void main(String[] args) {
@@ -647,7 +733,7 @@ public class XDocService {
                 if (!map.containsKey("_format") && to != null && to.indexOf('.') > 0) {
                     map.put("_format", to.substring(to.lastIndexOf('.') + 1));
                 }
-                XDocService client  = new XDocService(server, xkey);
+                XDocService client = new XDocService(server, xkey);
                 OutputStream out;
                 if (to != null) {
                     out = new FileOutputStream(to);
@@ -665,6 +751,7 @@ public class XDocService {
             }
         }
     }
+
     private void invoke(Map<String, String> param, Object out) throws IOException {
         String xurl = this.url + (this.url.endsWith("/") ? "xdoc" : "/xdoc");
         HttpURLConnection httpConn = (HttpURLConnection) new URL(xurl).openConnection();
@@ -689,7 +776,7 @@ public class XDocService {
                 Method method = out.getClass().getMethod("getOutputStream");
                 os = (OutputStream) method.invoke(out);
                 method = out.getClass().getMethod("setHeader", String.class, String.class);
-                String[] headerNames = new String[] {"Content-Type", "Content-Disposition"};
+                String[] headerNames = new String[]{"Content-Type", "Content-Disposition"};
                 String headerValue;
                 for (String headerName : headerNames) {
                     headerValue = httpConn.getHeaderField(headerName);
@@ -703,6 +790,7 @@ public class XDocService {
         }
         pipe(httpConn.getInputStream(), os);
     }
+
     private Object parse(byte[] data) throws IOException {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         factory.setValidating(false);
@@ -764,6 +852,7 @@ public class XDocService {
             throw new IOException(e);
         }
     }
+
     private String invokeStringFunc(String func) throws IOException {
         Map<String, String> params = new HashMap<String, String>();
         params.put("_func", func);
@@ -771,6 +860,7 @@ public class XDocService {
         invoke(params, out);
         return (String) parse(out.toByteArray());
     }
+
     private Map<String, String> checkParam(Map<String, Object> param) throws IOException {
         Map<String, String> map = new HashMap<String, String>();
         String key, value;
@@ -788,6 +878,7 @@ public class XDocService {
         }
         return map;
     }
+
     private static String toParamString(Object obj) throws IOException {
         String str;
         if (obj == null) {
@@ -811,6 +902,7 @@ public class XDocService {
         }
         return str;
     }
+
     private static void writeParamString(StringBuilder sb, Object obj, Set<Object> set) throws IOException {
         if (obj == null) {
             sb.append("null");
@@ -885,6 +977,7 @@ public class XDocService {
             sb.append("}");
         }
     }
+
     private static void jencode(String str, StringBuilder sb) {
         sb.append("\"");
         char c;
@@ -910,6 +1003,7 @@ public class XDocService {
         }
         sb.append("\"");
     }
+
     private static boolean isXDocData(String name, String value) {
         if (name.equals("_xdoc") || name.equals("_xdata")) {
             if (value.startsWith("./")
@@ -925,6 +1019,7 @@ public class XDocService {
         }
         return false;
     }
+
     private static String getFormat(String url) {
         String format = "xdoc";
         int pos = url.lastIndexOf(".");
@@ -940,6 +1035,7 @@ public class XDocService {
         }
         return format;
     }
+
     private static String encode(Object str) {
         try {
             return URLEncoder.encode(String.valueOf(str), "UTF-8");
@@ -947,6 +1043,7 @@ public class XDocService {
             return String.valueOf(str);
         }
     }
+
     private static String decode(String str) {
         try {
             return URLDecoder.decode(str, "UTF-8");
@@ -954,6 +1051,7 @@ public class XDocService {
             return str;
         }
     }
+
     private static void pipe(InputStream in, OutputStream out) throws IOException {
         int len;
         byte[] buf = new byte[4096];
@@ -969,12 +1067,14 @@ public class XDocService {
         out.close();
         in.close();
     }
+
     private static boolean isFile(String url) {
         int pos = url.indexOf(':');
         return pos < 0
                 || pos == 1
                 || (pos == 2 && url.charAt(0) == '/');
     }
+
     private static String toDataURI(InputStream in) throws IOException {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         pipe(in, out);
@@ -983,10 +1083,12 @@ public class XDocService {
         sb.append(toBase64(out.toByteArray()));
         return sb.toString();
     }
+
     private static String toDataURI(String url) throws IOException {
         if (url.length() > 0) {
             StringBuffer sb = new StringBuffer();
-            String format = null;;
+            String format = null;
+            ;
             InputStream in = null;
             if (isFile(url) || url.startsWith("class://")) {
                 int pos = url.lastIndexOf('.');
@@ -1033,6 +1135,7 @@ public class XDocService {
             return "";
         }
     }
+
     private static String toBase64(final byte[] data) {
         final char[] out = new char[((data.length + 2) / 3) * 4];
         for (int i = 0, index = 0; i < data.length; i += 3, index += 4) {
@@ -1060,9 +1163,11 @@ public class XDocService {
         }
         return new String(out);
     }
+
     private static char[] alphabet =
             "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=".toCharArray();
     private static byte[] codes = new byte[256];
+
     static {
         for (int i = 0; i < 256; i++) {
             codes[i] = -1;
@@ -1079,6 +1184,7 @@ public class XDocService {
         codes['+'] = 62;
         codes['/'] = 63;
     }
+
     private static String[] csvSplit(String str) {
         List<List<String>> list = csvList(str);
         if (list.size() > 0) {
@@ -1092,6 +1198,7 @@ public class XDocService {
             return new String[0];
         }
     }
+
     private static List<List<String>> csvList(String txt) {
         if (txt.length() > 0) {
             ArrayList<List<String>> rows = new ArrayList<List<String>>();
@@ -1141,8 +1248,10 @@ public class XDocService {
             return new ArrayList<List<String>>();
         }
     }
+
     /**
      * XDOC娉ㄨВ
+     *
      * @author XDOC
      */
     @Target(ElementType.TYPE)
@@ -1151,12 +1260,15 @@ public class XDocService {
     public @interface XDoc {
         /**
          * xdoc
+         *
          * @return
          */
         public String value() default "";
     }
+
     /**
      * XDOC鍙傛暟娉ㄨВ
+     *
      * @author XDOC
      */
     @Target(ElementType.FIELD)
@@ -1165,6 +1277,7 @@ public class XDocService {
     public @interface XParam {
         /**
          * 鍙傛暟鍚嶇О
+         *
          * @return
          */
         public String value() default "";

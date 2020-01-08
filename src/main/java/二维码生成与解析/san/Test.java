@@ -6,7 +6,7 @@ package 二维码生成与解析.san;
 public class Test {
     public static void main(String[] args) throws Exception {
         // 存放在二维码中的内容
-        String text = "神丹的小黄图";
+        String text = "123456789";
         // 嵌入二维码的图片路径
         String imgPath = "G://shendan.png";
         // 生成的二维码的路径及名称
