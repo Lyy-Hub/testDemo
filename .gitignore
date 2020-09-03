@@ -5,7 +5,8 @@
 
 **.iml
 
-target
+/target
 
 /out
-/target
+
+/lib

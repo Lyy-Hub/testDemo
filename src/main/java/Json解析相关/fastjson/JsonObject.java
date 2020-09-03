@@ -11,5 +11,9 @@ import java.util.List;
  * Created by liYueYang on 2019/9/18.
  */
 public class JsonObject {
+    JSON json = null;
 
+    public JSON getJson() {
+        return json;
+    }
 }

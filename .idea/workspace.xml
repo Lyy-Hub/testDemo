@@ -8,22 +8,31 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd14cda9-bbe5-48e0-bae5-66ad30f0dd43" name="Default" comment="二维码生成与解析">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TokenBucket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/yi/Stu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/yi/Teacher.java" afterDir="false" />
+    <list default="true" id="fd14cda9-bbe5-48e0-bae5-66ad30f0dd43" name="Default" comment="format">
+      <change afterPath="$PROJECT_DIR$/src/main/java/JDK8/Formula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JDK8/FormulaImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JDK8/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/反射/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/反射/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/批量修改文件名.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/线程池/java8线程.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/testDemo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/testDemo_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Postgres/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Postgres/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test132.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test132.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Json解析相关/fastjson/JsonObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Json解析相关/fastjson/JsonObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Testq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Testq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/二维码生成与解析/er/CreateQRCode2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/er/CreateQRCode2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/二维码生成与解析/san/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/san/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/二维码生成与解析/yi/CreateQRCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/二维码生成与解析/yi/CreateQRCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/图片处理/Base64Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/图片处理/Base64Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/流水号/upload.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/流水号/upload.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test132.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test132.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/计算利滚利.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/计算利滚利.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ArrayQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HelloServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SHA256Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SHA256Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/XDocService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/XDocService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/joke$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/joke$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/joke$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/joke$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/joke.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/joke.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/testq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/三种集合比较/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/三种集合比较/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/计算利滚利.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/计算利滚利.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/车牌号.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/车牌号.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testDemo.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +67,7 @@
     </option>
     <option name="enabledProfiles">
       <list>
-        <option value="sonatype" />
+        <option value="aliyun" />
       </list>
     </option>
   </component>
@@ -74,28 +83,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Tools" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/rabbitmq" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\rabbitmq" />
+      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\resources" />
       <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\Tools" />
       <recent name="D:\GitHub-WorkSpace\testDemo\lib" />
       <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\Json解析相关" />
-      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java" />
-      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\Lucene" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="流水号" />
       <recent name="jackson" />
-      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\流水号\config" />
       <recent name="D:\GitHub-WorkSpace\testDemo\src\main\resources" />
+      <recent name="D:\GitHub-WorkSpace\testDemo\src\main\java\流水号\config" />
       <recent name="D:\GitHub-WorkSpace\testDemo\lib" />
     </key>
   </component>
@@ -118,22 +127,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="二维码生成与解析.san.Test" />
-      <module name="testDemo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="二维码生成与解析.san.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test132" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test132" />
+    <configuration name="批量修改文件名" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="批量修改文件名" />
       <module name="testDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -148,39 +143,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TokenBucket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TokenBucket" />
-      <module name="testDemo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Base64Test.baseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDK8.test" />
       <module name="testDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="图片处理.*" />
+          <option name="PATTERN" value="JDK8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="图片处理" />
-      <option name="MAIN_CLASS_NAME" value="图片处理.Base64Test" />
-      <option name="METHOD_NAME" value="baseTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java8线程.ex (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="线程池.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="线程池" />
+      <option name="MAIN_CLASS_NAME" value="线程池.java8线程" />
+      <option name="METHOD_NAME" value="ex" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java8线程.ex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="线程池.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="线程池" />
+      <option name="MAIN_CLASS_NAME" value="线程池.java8线程" />
+      <option name="METHOD_NAME" value="ex" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -205,19 +223,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test132" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.TokenBucket" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.批量修改文件名" />
       <item itemvalue="Application.Testq" />
-      <item itemvalue="JUnit.Base64Test.baseTest" />
+      <item itemvalue="JUnit.java8线程.ex" />
+      <item itemvalue="JUnit.java8线程.ex (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Testq" />
-        <item itemvalue="Application.TokenBucket" />
-        <item itemvalue="Application.Test132" />
-        <item itemvalue="JUnit.Base64Test.baseTest" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="JUnit.java8线程.ex (1)" />
+        <item itemvalue="JUnit.java8线程.ex" />
+        <item itemvalue="Application.批量修改文件名" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +345,52 @@
       <workItem from="1577345773704" duration="551000" />
       <workItem from="1578374686564" duration="1757000" />
       <workItem from="1578377331699" duration="3150000" />
-      <workItem from="1578443372220" duration="2667000" />
+      <workItem from="1578443372220" duration="4949000" />
+      <workItem from="1578530392628" duration="5766000" />
+      <workItem from="1578541177662" duration="853000" />
+      <workItem from="1578549775631" duration="420000" />
+      <workItem from="1578619998671" duration="2324000" />
+      <workItem from="1578643340744" duration="38000" />
+      <workItem from="1582694429132" duration="4704000" />
+      <workItem from="1583203327721" duration="482000" />
+      <workItem from="1583305076579" duration="6522000" />
+      <workItem from="1583371069660" duration="551000" />
+      <workItem from="1583385158066" duration="344000" />
+      <workItem from="1583457391126" duration="1261000" />
+      <workItem from="1584508071776" duration="698000" />
+      <workItem from="1584579080208" duration="8566000" />
+      <workItem from="1584664825855" duration="2828000" />
+      <workItem from="1584706935495" duration="105000" />
+      <workItem from="1585013002333" duration="14000" />
+      <workItem from="1585637451839" duration="3088000" />
+      <workItem from="1586747923875" duration="2504000" />
+      <workItem from="1586856625718" duration="642000" />
+      <workItem from="1586912394053" duration="6000" />
+      <workItem from="1587093062614" duration="6000" />
+      <workItem from="1587352238184" duration="25000" />
+      <workItem from="1587363515738" duration="36000" />
+      <workItem from="1587704621206" duration="486000" />
+      <workItem from="1587706149545" duration="275000" />
+      <workItem from="1587707629531" duration="17000" />
+      <workItem from="1589010159661" duration="20000" />
+      <workItem from="1589251498949" duration="24000" />
+      <workItem from="1589367888430" duration="37000" />
+      <workItem from="1589427451577" duration="30000" />
+      <workItem from="1589434160653" duration="997000" />
+      <workItem from="1589439754021" duration="111000" />
+      <workItem from="1589442897840" duration="225000" />
+      <workItem from="1589531081830" duration="125000" />
+      <workItem from="1589857691758" duration="666000" />
+      <workItem from="1592553177329" duration="170000" />
+      <workItem from="1592985166608" duration="854000" />
+      <workItem from="1593304419586" duration="174000" />
+      <workItem from="1593565779328" duration="4583000" />
+      <workItem from="1593930522190" duration="769000" />
+      <workItem from="1596775995670" duration="115000" />
+      <workItem from="1596781368604" duration="177000" />
+      <workItem from="1598675677203" duration="2670000" />
+      <workItem from="1598678782637" duration="246000" />
+      <workItem from="1598679533678" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="readme">
       <created>1557888567426</created>
@@ -462,7 +525,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571973594533</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="format">
+      <created>1578451733392</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1578451733393</updated>
+    </task>
+    <task id="LOCAL-00021" summary="format">
+      <created>1583305285188</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1583305285188</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,6 +571,7 @@
     <MESSAGE value="三种单例模式" />
     <MESSAGE value="findbugs 代码修改" />
     <MESSAGE value="二维码生成与解析" />
-    <option name="LAST_COMMIT_MESSAGE" value="二维码生成与解析" />
+    <MESSAGE value="format" />
+    <option name="LAST_COMMIT_MESSAGE" value="format" />
   </component>
 </project>
