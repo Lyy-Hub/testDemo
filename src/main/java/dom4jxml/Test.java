@@ -36,5 +36,11 @@ public class Test {
         String d = c.getTextTrim();
         System.out.println(d);
 
+            char myChar = 'g';
+            String myStr = Character.toString(myChar);
+            System.out.println("String is: "+myStr);
+            myStr = String.valueOf(myChar);
+            System.out.println("String is: "+myStr);
+
     }
 }
