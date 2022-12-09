@@ -6,6 +6,7 @@ import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -15,16 +16,14 @@ public class Test {
     public static void main(String[] args) throws DocumentException {
         String[] string={"aaa","bbb","ccc","ddd"};
         List<String> list = new ArrayList<String>();
-        for(String s:string){
-            list.add(s);
-        }
+        Collections.addAll(list, string);
         String result = "";
         Document document = DocumentHelper.createDocument();//DocumentHelper创建document对象
         Element root = document.addElement("XZLGInfoParmOut");//创建根节点
         Element studentsElem = root.addElement("SuccInfo");
-        for(int i=0;i<list.size();i++){//遍历集合 创建子节点
+        for (String s : list) {//遍历集合 创建子节点
             Element wybs = studentsElem.addElement("WYBS");
-            wybs.addText(list.get(i));
+            wybs.addText(s);
         }
         result = document.asXML();
         System.out.println(result);
