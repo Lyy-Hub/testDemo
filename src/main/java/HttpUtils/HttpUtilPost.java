@@ -61,21 +61,7 @@ public class HttpUtilPost {
     }
 
     public static void main(String[] args) throws Exception {
-        Runnable runnable = new Runnable() {
-            public void run() {
-                // task to run goes here
-                String paramString = "email=1095285545@qq.com&password=123456789";
-                String result = null;
-                try {
-                    result = sendPost("https://portal-api.coinmarketcap.com/v1/login", paramString);
-                    System.out.println(result);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        };
-        ScheduledExecutorService service = Executors.newSingleThreadScheduledExecutor();
-        // 第二个参数为首次执行的延时时间，第三个参数为定时执行的间隔时间
-        service.scheduleAtFixedRate(runnable, 1, 1, TimeUnit.MILLISECONDS);
+        String result = sendPost("https://iot.unicloud.com/uni/oauth/token", "grant_type=client_credentials&client_id=832205208&client_secret=d05cab4fbc22c5f42beb2b5bb7dce274");
+        System.out.println(result);
     }
 }
