@@ -22,14 +22,14 @@ public class CnToSpell {
         StringBuilder t4 = new StringBuilder();
         int t0 = t1.length;
         try {
-            for (int i = 0; i < t0; i++) {
+            for (char c : t1) {
                 // 判断是否为汉字字符
-                if (java.lang.Character.toString(t1[i]).matches(
+                if (Character.toString(c).matches(
                         "[\\u4E00-\\u9FA5]+")) {
-                    t2 = PinyinHelper.toHanyuPinyinStringArray(t1[i], t3);
+                    t2 = PinyinHelper.toHanyuPinyinStringArray(c, t3);
                     t4.append(t2[0]);
                 } else
-                    t4.append(t1[i]);
+                    t4.append(c);
             }
             // System.out.println(t4);
             return String.valueOf(t4);
